@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: 4a4513b628cbf6c4abb7a5980a813cc7
+timeCreated: 1531820005
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 Head
+    100004: Bip001 L Calf
+    100006: Bip001 L Clavicle
+    100008: Bip001 L Finger0
+    100010: Bip001 L Finger01
+    100012: Bip001 L Finger02
+    100014: Bip001 L Finger1
+    100016: Bip001 L Finger11
+    100018: Bip001 L Finger12
+    100020: Bip001 L Finger2
+    100022: Bip001 L Finger21
+    100024: Bip001 L Finger22
+    100026: Bip001 L Finger3
+    100028: Bip001 L Finger31
+    100030: Bip001 L Finger32
+    100032: Bip001 L Finger4
+    100034: Bip001 L Finger41
+    100036: Bip001 L Finger42
+    100038: Bip001 L Foot
+    100040: Bip001 L Forearm
+    100042: Bip001 L Hand
+    100044: Bip001 L Thigh
+    100046: Bip001 L Toe0
+    100048: Bip001 L UpperArm
+    100050: Bip001 Neck
+    100052: Bip001 Pelvis
+    100054: Bip001 R Calf
+    100056: Bip001 R Clavicle
+    100058: Bip001 R Finger0
+    100060: Bip001 R Finger01
+    100062: Bip001 R Finger02
+    100064: Bip001 R Finger1
+    100066: Bip001 R Finger11
+    100068: Bip001 R Finger12
+    100070: Bip001 R Finger2
+    100072: Bip001 R Finger21
+    100074: Bip001 R Finger22
+    100076: Bip001 R Finger3
+    100078: Bip001 R Finger31
+    100080: Bip001 R Finger32
+    100082: Bip001 R Finger4
+    100084: Bip001 R Finger41
+    100086: Bip001 R Finger42
+    100088: Bip001 R Foot
+    100090: Bip001 R Forearm
+    100092: Bip001 R Hand
+    100094: Bip001 R Thigh
+    100096: Bip001 R Toe0
+    100098: Bip001 R UpperArm
+    100100: Bip001 Spine
+    100102: Bip001 Spine1
+    100104: Bip001 Spine2
+    100106: Eyes_L
+    100108: Eyes_R
+    100110: hand
+    100112: Kappa_Body
+    100114: //RootNode
+    100116: Bip001 Footsteps
+    100118: Bip001 L Toe01
+    100120: Bip001 L Toe02
+    100122: Bip001 L Toe1
+    100124: Bip001 L Toe11
+    100126: Bip001 L Toe12
+    100128: Bip001 L Toe2
+    100130: Bip001 L Toe21
+    100132: Bip001 L Toe22
+    100134: Bip001 L Toe3
+    100136: Bip001 L Toe31
+    100138: Bip001 L Toe32
+    100140: Bip001 Ponytail1
+    100142: Bip001 Ponytail2
+    100144: Bip001 R Toe01
+    100146: Bip001 R Toe02
+    100148: Bip001 R Toe1
+    100150: Bip001 R Toe11
+    100152: Bip001 R Toe12
+    100154: Bip001 R Toe2
+    100156: Bip001 R Toe21
+    100158: Bip001 R Toe22
+    100160: Bip001 R Toe3
+    100162: Bip001 R Toe31
+    100164: Bip001 R Toe32
+    100166: Bip001 Tail
+    100168: Bip001 Tail1
+    100170: Bone001
+    100172: Bone002
+    100174: Bone003
+    100176: Bone004
+    100178: Bone005
+    100180: eye_L
+    100182: eye_L_Dummy
+    100184: eye_L_Dummy001
+    100186: eye_R
+    100188: eye_R 1
+    100190: eye_R001
+    100192: Eyes_L001
+    100194: Eyes_R_up
+    400000: Bip001
+    400002: Bip001 Head
+    400004: Bip001 L Calf
+    400006: Bip001 L Clavicle
+    400008: Bip001 L Finger0
+    400010: Bip001 L Finger01
+    400012: Bip001 L Finger02
+    400014: Bip001 L Finger1
+    400016: Bip001 L Finger11
+    400018: Bip001 L Finger12
+    400020: Bip001 L Finger2
+    400022: Bip001 L Finger21
+    400024: Bip001 L Finger22
+    400026: Bip001 L Finger3
+    400028: Bip001 L Finger31
+    400030: Bip001 L Finger32
+    400032: Bip001 L Finger4
+    400034: Bip001 L Finger41
+    400036: Bip001 L Finger42
+    400038: Bip001 L Foot
+    400040: Bip001 L Forearm
+    400042: Bip001 L Hand
+    400044: Bip001 L Thigh
+    400046: Bip001 L Toe0
+    400048: Bip001 L UpperArm
+    400050: Bip001 Neck
+    400052: Bip001 Pelvis
+    400054: Bip001 R Calf
+    400056: Bip001 R Clavicle
+    400058: Bip001 R Finger0
+    400060: Bip001 R Finger01
+    400062: Bip001 R Finger02
+    400064: Bip001 R Finger1
+    400066: Bip001 R Finger11
+    400068: Bip001 R Finger12
+    400070: Bip001 R Finger2
+    400072: Bip001 R Finger21
+    400074: Bip001 R Finger22
+    400076: Bip001 R Finger3
+    400078: Bip001 R Finger31
+    400080: Bip001 R Finger32
+    400082: Bip001 R Finger4
+    400084: Bip001 R Finger41
+    400086: Bip001 R Finger42
+    400088: Bip001 R Foot
+    400090: Bip001 R Forearm
+    400092: Bip001 R Hand
+    400094: Bip001 R Thigh
+    400096: Bip001 R Toe0
+    400098: Bip001 R UpperArm
+    400100: Bip001 Spine
+    400102: Bip001 Spine1
+    400104: Bip001 Spine2
+    400106: Eyes_L
+    400108: Eyes_R
+    400110: hand
+    400112: Kappa_Body
+    400114: //RootNode
+    400116: Bip001 Footsteps
+    400118: Bip001 L Toe01
+    400120: Bip001 L Toe02
+    400122: Bip001 L Toe1
+    400124: Bip001 L Toe11
+    400126: Bip001 L Toe12
+    400128: Bip001 L Toe2
+    400130: Bip001 L Toe21
+    400132: Bip001 L Toe22
+    400134: Bip001 L Toe3
+    400136: Bip001 L Toe31
+    400138: Bip001 L Toe32
+    400140: Bip001 Ponytail1
+    400142: Bip001 Ponytail2
+    400144: Bip001 R Toe01
+    400146: Bip001 R Toe02
+    400148: Bip001 R Toe1
+    400150: Bip001 R Toe11
+    400152: Bip001 R Toe12
+    400154: Bip001 R Toe2
+    400156: Bip001 R Toe21
+    400158: Bip001 R Toe22
+    400160: Bip001 R Toe3
+    400162: Bip001 R Toe31
+    400164: Bip001 R Toe32
+    400166: Bip001 Tail
+    400168: Bip001 Tail1
+    400170: Bone001
+    400172: Bone002
+    400174: Bone003
+    400176: Bone004
+    400178: Bone005
+    400180: eye_L
+    400182: eye_L_Dummy
+    400184: eye_L_Dummy001
+    400186: eye_R
+    400188: eye_R 1
+    400190: eye_R001
+    400192: Eyes_L001
+    400194: Eyes_R_up
+    2300000: eye_L
+    2300002: eye_R
+    2300004: eye_R 1
+    2300006: eye_R001
+    2300008: Eyes_L
+    2300010: Eyes_L001
+    2300012: Eyes_R
+    2300014: Eyes_R_up
+    3300000: eye_L
+    3300002: eye_R
+    3300004: eye_R 1
+    3300006: eye_R001
+    3300008: Eyes_L
+    3300010: Eyes_L001
+    3300012: Eyes_R
+    3300014: Eyes_R_up
+    4300000: Kappa_Body
+    4300002: hand
+    4300004: Eyes_R
+    4300006: Eyes_L
+    4300008: eye_L
+    4300010: eye_R
+    4300012: eye_R001
+    4300014: eye_R
+    4300016: Eyes_L001
+    4300018: Eyes_R_up
+    7400000: kappa_Reverse
+    9500000: //RootNode
+    13700000: Eyes_L
+    13700002: Eyes_R
+    13700004: hand
+    13700006: Kappa_Body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: d1d34a6b0138e7240ace1b2b86120379, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04
+    second: {fileID: 2100000, guid: 81a89f10362ebcd4b825dd83611807cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyes
+    second: {fileID: 2100000, guid: 22d4a0e27ca69af4581d14f0596e68fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Head
+    second: {fileID: 2100000, guid: 81a89f10362ebcd4b825dd83611807cc, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: kappa_Reverse
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 198
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
