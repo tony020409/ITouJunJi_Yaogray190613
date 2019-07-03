@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: 99a746f88a7a54a4890e91e290f101a1
+timeCreated: 1524550891
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Allosaur
+    100002: AllosaurLArm1
+    100004: AllosaurLArm2
+    100006: AllosaurLArmCollarbone
+    100008: AllosaurLArmDigit01
+    100010: AllosaurLArmDigit11
+    100012: AllosaurLArmDigit12
+    100014: AllosaurLArmDigit21
+    100016: AllosaurLArmDigit22
+    100018: AllosaurLArmPalm
+    100020: AllosaurLLeg1
+    100022: AllosaurLLeg2
+    100024: AllosaurLLegDigit01
+    100026: AllosaurLLegDigit02
+    100028: AllosaurLLegDigit03
+    100030: AllosaurLLegDigit11
+    100032: AllosaurLLegDigit12
+    100034: AllosaurLLegDigit21
+    100036: AllosaurLLegDigit22
+    100038: AllosaurLLegDigit31
+    100040: AllosaurLLegDigit32
+    100042: AllosaurLLegPalm
+    100044: AllosaurLLegPlatform
+    100046: AllosaurPelvis
+    100048: AllosaurRArm1
+    100050: AllosaurRArm2
+    100052: AllosaurRArmCollarbone
+    100054: AllosaurRArmDigit01
+    100056: AllosaurRArmDigit11
+    100058: AllosaurRArmDigit12
+    100060: AllosaurRArmDigit21
+    100062: AllosaurRArmDigit22
+    100064: AllosaurRArmPalm
+    100066: AllosaurRibcage
+    100068: AllosaurRibcageBone001
+    100070: AllosaurRibcageBone001Bone001
+    100072: AllosaurRibcageBone001Bone001Bone001
+    100074: AllosaurRibcageBone001Bone001Bone001Bone001
+    100076: AllosaurRibcageBone001Bone001Bone001Bone001Bone001
+    100078: AllosaurRibcageBone001Bone001Bone001Bone001Bone001Bone001
+    100080: AllosaurRibcageBone001Bone001Bone001Bone001Bone001Bone001Bone001
+    100082: AllosaurRLeg1
+    100084: AllosaurRLeg2
+    100086: AllosaurRLegDigit01
+    100088: AllosaurRLegDigit02
+    100090: AllosaurRLegDigit03
+    100092: AllosaurRLegDigit11
+    100094: AllosaurRLegDigit12
+    100096: AllosaurRLegDigit21
+    100098: AllosaurRLegDigit22
+    100100: AllosaurRLegDigit31
+    100102: AllosaurRLegDigit32
+    100104: AllosaurRLegPalm
+    100106: AllosaurRLegPlatform
+    100108: AllosaurSpine1
+    100110: AllosaurSpine2
+    100112: AllosaurSpine3
+    100114: AllosaurSpine4
+    100116: AllosaurSpine5
+    100118: AllosaurSpine6
+    100120: AllosaurSpine7
+    100122: AllosaurTail01
+    100124: AllosaurTail02
+    100126: AllosaurTail03
+    100128: AllosaurTail04
+    100130: AllosaurTail05
+    100132: AllosaurTail06
+    100134: AllosaurTail07
+    100136: AllosaurTail08
+    100138: AllosaurTail09
+    100140: AllosaurTail10
+    100142: AllosaurTail11
+    100144: AllosaurTail12
+    100146: AllosaurTail13
+    100148: AllosaurTail14
+    100150: head_Controller
+    100152: Root
+    100154: SK_TRex
+    100156: //RootNode
+    400000: Allosaur
+    400002: AllosaurLArm1
+    400004: AllosaurLArm2
+    400006: AllosaurLArmCollarbone
+    400008: AllosaurLArmDigit01
+    400010: AllosaurLArmDigit11
+    400012: AllosaurLArmDigit12
+    400014: AllosaurLArmDigit21
+    400016: AllosaurLArmDigit22
+    400018: AllosaurLArmPalm
+    400020: AllosaurLLeg1
+    400022: AllosaurLLeg2
+    400024: AllosaurLLegDigit01
+    400026: AllosaurLLegDigit02
+    400028: AllosaurLLegDigit03
+    400030: AllosaurLLegDigit11
+    400032: AllosaurLLegDigit12
+    400034: AllosaurLLegDigit21
+    400036: AllosaurLLegDigit22
+    400038: AllosaurLLegDigit31
+    400040: AllosaurLLegDigit32
+    400042: AllosaurLLegPalm
+    400044: AllosaurLLegPlatform
+    400046: AllosaurPelvis
+    400048: AllosaurRArm1
+    400050: AllosaurRArm2
+    400052: AllosaurRArmCollarbone
+    400054: AllosaurRArmDigit01
+    400056: AllosaurRArmDigit11
+    400058: AllosaurRArmDigit12
+    400060: AllosaurRArmDigit21
+    400062: AllosaurRArmDigit22
+    400064: AllosaurRArmPalm
+    400066: AllosaurRibcage
+    400068: AllosaurRibcageBone001
+    400070: AllosaurRibcageBone001Bone001
+    400072: AllosaurRibcageBone001Bone001Bone001
+    400074: AllosaurRibcageBone001Bone001Bone001Bone001
+    400076: AllosaurRibcageBone001Bone001Bone001Bone001Bone001
+    400078: AllosaurRibcageBone001Bone001Bone001Bone001Bone001Bone001
+    400080: AllosaurRibcageBone001Bone001Bone001Bone001Bone001Bone001Bone001
+    400082: AllosaurRLeg1
+    400084: AllosaurRLeg2
+    400086: AllosaurRLegDigit01
+    400088: AllosaurRLegDigit02
+    400090: AllosaurRLegDigit03
+    400092: AllosaurRLegDigit11
+    400094: AllosaurRLegDigit12
+    400096: AllosaurRLegDigit21
+    400098: AllosaurRLegDigit22
+    400100: AllosaurRLegDigit31
+    400102: AllosaurRLegDigit32
+    400104: AllosaurRLegPalm
+    400106: AllosaurRLegPlatform
+    400108: AllosaurSpine1
+    400110: AllosaurSpine2
+    400112: AllosaurSpine3
+    400114: AllosaurSpine4
+    400116: AllosaurSpine5
+    400118: AllosaurSpine6
+    400120: AllosaurSpine7
+    400122: AllosaurTail01
+    400124: AllosaurTail02
+    400126: AllosaurTail03
+    400128: AllosaurTail04
+    400130: AllosaurTail05
+    400132: AllosaurTail06
+    400134: AllosaurTail07
+    400136: AllosaurTail08
+    400138: AllosaurTail09
+    400140: AllosaurTail10
+    400142: AllosaurTail11
+    400144: AllosaurTail12
+    400146: AllosaurTail13
+    400148: AllosaurTail14
+    400150: head_Controller
+    400152: Root
+    400154: SK_TRex
+    400156: //RootNode
+    4300000: SK_TRex
+    7400000: TRex_ForwardRoar_LagBack
+    9500000: //RootNode
+    13700000: SK_TRex
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: TRex_ForwardRoar_LagBack
+      takeName: Take 001
+      firstFrame: 700
+      lastFrame: 840
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
