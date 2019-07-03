@@ -1,0 +1,10 @@
+
+
+//版本說明
+TRex_WalkToPause_new   ：什麼事都不做
+TRex_WalkToPause_new1 ：結尾執行 Correction
+TRex_WalkToPause_new2 ：結尾執行 Correction、OnRecvAnimatorEvent 
+
+// Animation Key說明
+Correction ：會根據事件Int欄位的值，抓取物件身上TRex.cs對應的參數，進行位置修正。
+OnRecvAnimatorEvent：Excel腳本用，當動畫結束時，執行Excel腳本下一行的任務
