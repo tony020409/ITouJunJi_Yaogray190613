@@ -1,0 +1,501 @@
+fileFormatVersion: 2
+guid: 914977230c138654ba757cd4b710066b
+timeCreated: 1527503589
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Base HumanHead
+    100002: Base HumanLCalf
+    100004: Base HumanLCollarbone
+    100006: Base HumanLFinger11
+    100008: Base HumanLFinger12
+    100010: Base HumanLFinger13
+    100012: Base HumanLFinger21
+    100014: Base HumanLFinger22
+    100016: Base HumanLFinger23
+    100018: Base HumanLFinger31
+    100020: Base HumanLFinger32
+    100022: Base HumanLFinger33
+    100024: Base HumanLFinger41
+    100026: Base HumanLFinger42
+    100028: Base HumanLFinger43
+    100030: Base HumanLFinger51
+    100032: Base HumanLFinger52
+    100034: Base HumanLFinger53
+    100036: Base HumanLFoot
+    100038: Base HumanLForearm
+    100040: Base HumanLPalm
+    100042: Base HumanLThigh
+    100044: Base HumanLToe11
+    100046: Base HumanLUpperarm
+    100048: Base HumanNeck
+    100050: Base HumanPelvis
+    100052: Base HumanRCalf
+    100054: Base HumanRCollarbone
+    100056: Base HumanRFinger11
+    100058: Base HumanRFinger12
+    100060: Base HumanRFinger13
+    100062: Base HumanRFinger21
+    100064: Base HumanRFinger22
+    100066: Base HumanRFinger23
+    100068: Base HumanRFinger31
+    100070: Base HumanRFinger32
+    100072: Base HumanRFinger33
+    100074: Base HumanRFinger41
+    100076: Base HumanRFinger42
+    100078: Base HumanRFinger43
+    100080: Base HumanRFinger51
+    100082: Base HumanRFinger52
+    100084: Base HumanRFinger53
+    100086: Base HumanRFoot
+    100088: Base HumanRForearm
+    100090: Base HumanRibcage
+    100092: Base HumanRPalm
+    100094: Base HumanRThigh
+    100096: Base HumanRToe11
+    100098: Base HumanRUpperarm
+    100100: Base HumanSpine1
+    100102: Base HumanSpine2
+    100104: Base HumanSpine3
+    100106: Bone001
+    100108: Bone002
+    100110: Bone003
+    100112: Bone004
+    100114: cloth
+    100116: cloth001
+    100118: eyes
+    100120: eyes001
+    100122: Ghot_G_Low
+    100124: //RootNode
+    100126: Wepon
+    100128: WeponBone
+    100130: Base HumanHeadBone001
+    100132: Base HumanLFinger14
+    100134: Base HumanLFinger24
+    100136: Base HumanLFinger34
+    100138: Base HumanLFinger44
+    100140: Base HumanLFinger54
+    100142: Base HumanLToe12
+    100144: Base HumanRFinger14
+    100146: Base HumanRFinger24
+    100148: Base HumanRFinger34
+    100150: Base HumanRFinger44
+    100152: Base HumanRFinger54
+    100154: Base HumanRToe12
+    100156: Bone006
+    400000: Base HumanHead
+    400002: Base HumanLCalf
+    400004: Base HumanLCollarbone
+    400006: Base HumanLFinger11
+    400008: Base HumanLFinger12
+    400010: Base HumanLFinger13
+    400012: Base HumanLFinger21
+    400014: Base HumanLFinger22
+    400016: Base HumanLFinger23
+    400018: Base HumanLFinger31
+    400020: Base HumanLFinger32
+    400022: Base HumanLFinger33
+    400024: Base HumanLFinger41
+    400026: Base HumanLFinger42
+    400028: Base HumanLFinger43
+    400030: Base HumanLFinger51
+    400032: Base HumanLFinger52
+    400034: Base HumanLFinger53
+    400036: Base HumanLFoot
+    400038: Base HumanLForearm
+    400040: Base HumanLPalm
+    400042: Base HumanLThigh
+    400044: Base HumanLToe11
+    400046: Base HumanLUpperarm
+    400048: Base HumanNeck
+    400050: Base HumanPelvis
+    400052: Base HumanRCalf
+    400054: Base HumanRCollarbone
+    400056: Base HumanRFinger11
+    400058: Base HumanRFinger12
+    400060: Base HumanRFinger13
+    400062: Base HumanRFinger21
+    400064: Base HumanRFinger22
+    400066: Base HumanRFinger23
+    400068: Base HumanRFinger31
+    400070: Base HumanRFinger32
+    400072: Base HumanRFinger33
+    400074: Base HumanRFinger41
+    400076: Base HumanRFinger42
+    400078: Base HumanRFinger43
+    400080: Base HumanRFinger51
+    400082: Base HumanRFinger52
+    400084: Base HumanRFinger53
+    400086: Base HumanRFoot
+    400088: Base HumanRForearm
+    400090: Base HumanRibcage
+    400092: Base HumanRPalm
+    400094: Base HumanRThigh
+    400096: Base HumanRToe11
+    400098: Base HumanRUpperarm
+    400100: Base HumanSpine1
+    400102: Base HumanSpine2
+    400104: Base HumanSpine3
+    400106: Bone001
+    400108: Bone002
+    400110: Bone003
+    400112: Bone004
+    400114: cloth
+    400116: cloth001
+    400118: eyes
+    400120: eyes001
+    400122: Ghot_G_Low
+    400124: //RootNode
+    400126: Wepon
+    400128: WeponBone
+    400130: Base HumanHeadBone001
+    400132: Base HumanLFinger14
+    400134: Base HumanLFinger24
+    400136: Base HumanLFinger34
+    400138: Base HumanLFinger44
+    400140: Base HumanLFinger54
+    400142: Base HumanLToe12
+    400144: Base HumanRFinger14
+    400146: Base HumanRFinger24
+    400148: Base HumanRFinger34
+    400150: Base HumanRFinger44
+    400152: Base HumanRFinger54
+    400154: Base HumanRToe12
+    400156: Bone006
+    2300000: Base HumanLCalf
+    2300002: Base HumanLCollarbone
+    2300004: Base HumanLFinger11
+    2300006: Base HumanLFinger12
+    2300008: Base HumanLFinger13
+    2300010: Base HumanLFinger21
+    2300012: Base HumanLFinger22
+    2300014: Base HumanLFinger23
+    2300016: Base HumanLFinger31
+    2300018: Base HumanLFinger32
+    2300020: Base HumanLFinger33
+    2300022: Base HumanLFinger41
+    2300024: Base HumanLFinger42
+    2300026: Base HumanLFinger43
+    2300028: Base HumanLFinger51
+    2300030: Base HumanLFinger52
+    2300032: Base HumanLFinger53
+    2300034: Base HumanLFoot
+    2300036: Base HumanLForearm
+    2300038: Base HumanLPalm
+    2300040: Base HumanLThigh
+    2300042: Base HumanLToe11
+    2300044: Base HumanLUpperarm
+    2300046: Base HumanRCalf
+    2300048: Base HumanRCollarbone
+    2300050: Base HumanRFinger11
+    2300052: Base HumanRFinger12
+    2300054: Base HumanRFinger13
+    2300056: Base HumanRFinger21
+    2300058: Base HumanRFinger22
+    2300060: Base HumanRFinger23
+    2300062: Base HumanRFinger31
+    2300064: Base HumanRFinger32
+    2300066: Base HumanRFinger33
+    2300068: Base HumanRFinger41
+    2300070: Base HumanRFinger42
+    2300072: Base HumanRFinger43
+    2300074: Base HumanRFinger51
+    2300076: Base HumanRFinger52
+    2300078: Base HumanRFinger53
+    2300080: Base HumanRFoot
+    2300082: Base HumanRForearm
+    2300084: Base HumanRPalm
+    2300086: Base HumanRThigh
+    2300088: Base HumanRToe11
+    2300090: Base HumanRUpperarm
+    2300092: cloth001
+    2300094: eyes
+    2300096: eyes001
+    2300098: Base HumanHead
+    2300100: Base HumanHeadBone001
+    2300102: Base HumanLFinger14
+    2300104: Base HumanLFinger24
+    2300106: Base HumanLFinger34
+    2300108: Base HumanLFinger44
+    2300110: Base HumanLFinger54
+    2300112: Base HumanLToe12
+    2300114: Base HumanNeck
+    2300116: Base HumanPelvis
+    2300118: Base HumanRFinger14
+    2300120: Base HumanRFinger24
+    2300122: Base HumanRFinger34
+    2300124: Base HumanRFinger44
+    2300126: Base HumanRFinger54
+    2300128: Base HumanRibcage
+    2300130: Base HumanRToe12
+    2300132: Base HumanSpine1
+    2300134: Base HumanSpine2
+    2300136: Base HumanSpine3
+    3300000: Base HumanLCalf
+    3300002: Base HumanLCollarbone
+    3300004: Base HumanLFinger11
+    3300006: Base HumanLFinger12
+    3300008: Base HumanLFinger13
+    3300010: Base HumanLFinger21
+    3300012: Base HumanLFinger22
+    3300014: Base HumanLFinger23
+    3300016: Base HumanLFinger31
+    3300018: Base HumanLFinger32
+    3300020: Base HumanLFinger33
+    3300022: Base HumanLFinger41
+    3300024: Base HumanLFinger42
+    3300026: Base HumanLFinger43
+    3300028: Base HumanLFinger51
+    3300030: Base HumanLFinger52
+    3300032: Base HumanLFinger53
+    3300034: Base HumanLFoot
+    3300036: Base HumanLForearm
+    3300038: Base HumanLPalm
+    3300040: Base HumanLThigh
+    3300042: Base HumanLToe11
+    3300044: Base HumanLUpperarm
+    3300046: Base HumanRCalf
+    3300048: Base HumanRCollarbone
+    3300050: Base HumanRFinger11
+    3300052: Base HumanRFinger12
+    3300054: Base HumanRFinger13
+    3300056: Base HumanRFinger21
+    3300058: Base HumanRFinger22
+    3300060: Base HumanRFinger23
+    3300062: Base HumanRFinger31
+    3300064: Base HumanRFinger32
+    3300066: Base HumanRFinger33
+    3300068: Base HumanRFinger41
+    3300070: Base HumanRFinger42
+    3300072: Base HumanRFinger43
+    3300074: Base HumanRFinger51
+    3300076: Base HumanRFinger52
+    3300078: Base HumanRFinger53
+    3300080: Base HumanRFoot
+    3300082: Base HumanRForearm
+    3300084: Base HumanRPalm
+    3300086: Base HumanRThigh
+    3300088: Base HumanRToe11
+    3300090: Base HumanRUpperarm
+    3300092: cloth001
+    3300094: eyes
+    3300096: eyes001
+    3300098: Base HumanHead
+    3300100: Base HumanHeadBone001
+    3300102: Base HumanLFinger14
+    3300104: Base HumanLFinger24
+    3300106: Base HumanLFinger34
+    3300108: Base HumanLFinger44
+    3300110: Base HumanLFinger54
+    3300112: Base HumanLToe12
+    3300114: Base HumanNeck
+    3300116: Base HumanPelvis
+    3300118: Base HumanRFinger14
+    3300120: Base HumanRFinger24
+    3300122: Base HumanRFinger34
+    3300124: Base HumanRFinger44
+    3300126: Base HumanRFinger54
+    3300128: Base HumanRibcage
+    3300130: Base HumanRToe12
+    3300132: Base HumanSpine1
+    3300134: Base HumanSpine2
+    3300136: Base HumanSpine3
+    4300000: Ghot_G_Low
+    4300002: Base HumanLThigh
+    4300004: Base HumanLCalf
+    4300006: Base HumanLFoot
+    4300008: Base HumanLToe11
+    4300010: Base HumanRThigh
+    4300012: Base HumanRCalf
+    4300014: Base HumanRFoot
+    4300016: Base HumanRToe11
+    4300018: Base HumanLCollarbone
+    4300020: Base HumanLUpperarm
+    4300022: Base HumanLForearm
+    4300024: Base HumanLPalm
+    4300026: Base HumanLFinger11
+    4300028: Base HumanLFinger12
+    4300030: Base HumanLFinger13
+    4300032: Base HumanLFinger21
+    4300034: Base HumanLFinger22
+    4300036: Base HumanLFinger23
+    4300038: Base HumanLFinger31
+    4300040: Base HumanLFinger32
+    4300042: Base HumanLFinger33
+    4300044: Base HumanLFinger41
+    4300046: Base HumanLFinger42
+    4300048: Base HumanLFinger43
+    4300050: Base HumanLFinger51
+    4300052: Base HumanLFinger52
+    4300054: Base HumanLFinger53
+    4300056: Base HumanRCollarbone
+    4300058: Base HumanRUpperarm
+    4300060: Base HumanRForearm
+    4300062: Base HumanRPalm
+    4300064: Base HumanRFinger11
+    4300066: Base HumanRFinger12
+    4300068: Base HumanRFinger13
+    4300070: Base HumanRFinger21
+    4300072: Base HumanRFinger22
+    4300074: Base HumanRFinger23
+    4300076: Base HumanRFinger31
+    4300078: Base HumanRFinger32
+    4300080: Base HumanRFinger33
+    4300082: Base HumanRFinger41
+    4300084: Base HumanRFinger42
+    4300086: Base HumanRFinger43
+    4300088: Base HumanRFinger51
+    4300090: Base HumanRFinger52
+    4300092: Base HumanRFinger53
+    4300094: eyes001
+    4300096: eyes
+    4300098: cloth
+    4300100: Wepon
+    4300102: cloth001
+    4300104: Base HumanPelvis
+    4300106: Base HumanLToe12
+    4300108: Base HumanRToe12
+    4300110: Base HumanSpine1
+    4300112: Base HumanSpine2
+    4300114: Base HumanSpine3
+    4300116: Base HumanRibcage
+    4300118: Base HumanLFinger14
+    4300120: Base HumanLFinger24
+    4300122: Base HumanLFinger34
+    4300124: Base HumanLFinger44
+    4300126: Base HumanLFinger54
+    4300128: Base HumanRFinger14
+    4300130: Base HumanRFinger24
+    4300132: Base HumanRFinger34
+    4300134: Base HumanRFinger44
+    4300136: Base HumanRFinger54
+    4300138: Base HumanNeck
+    4300140: Base HumanHead
+    4300142: Base HumanHeadBone001
+    7400000: idle
+    9500000: //RootNode
+    13700000: cloth
+    13700002: Ghot_G_Low
+    13700004: Wepon
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #110'
+    second: {fileID: 2100000, guid: 9b19ef1792c305349a64593cd60544b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #99'
+    second: {fileID: 2100000, guid: bc45a52a31dda73468793414e8eba57f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 39c8d3fd9a7178042b3ecd191083097f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
