@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: f8eb88edaf6adf043921907719888684
+timeCreated: 1472790608
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Bip001 Footsteps
+    100004: Bip001 Head
+    100006: Bip001 HeadNub
+    100008: Bip001 L Calf
+    100010: Bip001 L Clavicle
+    100012: Bip001 L Finger0
+    100014: Bip001 L Finger0Nub
+    100016: Bip001 L Foot
+    100018: Bip001 L Forearm
+    100020: Bip001 L Hand
+    100022: Bip001 L Thigh
+    100024: Bip001 L Toe0
+    100026: Bip001 L Toe01
+    100028: Bip001 L Toe02
+    100030: Bip001 L Toe0Nub
+    100032: Bip001 L UpperArm
+    100034: Bip001 Neck
+    100036: Bip001 Pelvis
+    100038: Bip001 R Calf
+    100040: Bip001 R Clavicle
+    100042: Bip001 R Finger0
+    100044: Bip001 R Finger0Nub
+    100046: Bip001 R Foot
+    100048: Bip001 R Forearm
+    100050: Bip001 R Hand
+    100052: Bip001 R Thigh
+    100054: Bip001 R Toe0
+    100056: Bip001 R Toe01
+    100058: Bip001 R Toe02
+    100060: Bip001 R Toe0Nub
+    100062: Bip001 R UpperArm
+    100064: Bip001 Spine
+    100066: Bip001 Spine1
+    100068: Bip001 Spine2
+    100070: Bip001 Spine3
+    100072: Box1578957994
+    100074: Box1578957999
+    100076: Box1578958005
+    100078: Box1578958006
+    100080: Box1578958011
+    100082: Box1578958014
+    100084: Box1578958015
+    100086: Box1578958016
+    100088: Camera001
+    100090: Camera001.Target
+    100092: Camera002
+    100094: Camera002.Target
+    100096: Cylinder002
+    100098: Cylinder003
+    100100: Cylinder004
+    100102: Cylinder005
+    100104: Cylinder008
+    100106: Cylinder009
+    100108: Cylinder010
+    100110: Cylinder011
+    100112: Cylinder012
+    100114: Cylinder014
+    100116: Cylinder015
+    100118: Cylinder016
+    100120: Cylinder02
+    100122: Group002
+    100124: Group004
+    100126: Group007
+    100128: Group012
+    100130: //RootNode
+    100132: Line008
+    100134: Line009
+    100136: Line010
+    100138: Line011
+    100140: Line012
+    100142: Line013
+    100144: Line255
+    100146: Line256
+    100148: Line257
+    100150: Line260
+    100152: Object1768
+    100154: Object1770
+    100156: Object1780
+    100158: Object1788
+    100160: Object1792
+    100162: Object1794
+    100164: Object1806
+    100166: Object1808
+    100168: Object1810
+    100170: Object1818
+    100172: Object1828
+    100174: Object1832
+    100176: Object1842
+    100178: Object1848
+    100180: Object1852
+    100182: Object1854
+    100184: Object1856
+    100186: Object1882
+    100188: Object1913
+    100190: Object1915
+    100192: Object1917
+    100194: Object1919
+    100196: Object1921
+    100198: Object1930
+    100200: Object1933
+    100202: Object1935
+    100204: Object1937
+    100206: Object1939
+    100208: Object1945
+    100210: Object1963
+    100212: Object1967
+    100214: Object1978
+    100216: Object1981
+    100218: Object1982
+    100220: Object1983
+    100222: Object1984
+    100224: Object1985
+    100226: Object1988
+    100228: Object2001
+    100230: Object2002
+    100232: Object2003
+    100234: Object2012
+    100236: Object2013
+    100238: Object2014
+    100240: Object2015
+    100242: Object2017
+    100244: Object2018
+    100246: Object2019
+    100248: Object2020
+    100250: Object2021
+    100252: Object2022
+    100254: Object2023
+    100256: Object2024
+    100258: Object2025
+    100260: Object2026
+    100262: Object2027
+    100264: Object2028
+    100266: Object2029
+    100268: Object2030
+    100270: Object2031
+    100272: Object2032
+    100274: Object2033
+    100276: Object2034
+    100278: Object2035
+    100280: Object2045
+    100282: Plane001
+    100284: Plane002
+    100286: Plane004
+    100288: Plane005
+    100290: Plane008
+    100292: Plane009
+    100294: Plane010
+    100296: Rectangle55
+    100298: sddd
+    100300: Sphere001
+    100302: Sphere006
+    100304: VRayLight001
+    100306: VRayLight002
+    400000: Bip001
+    400002: Bip001 Footsteps
+    400004: Bip001 Head
+    400006: Bip001 HeadNub
+    400008: Bip001 L Calf
+    400010: Bip001 L Clavicle
+    400012: Bip001 L Finger0
+    400014: Bip001 L Finger0Nub
+    400016: Bip001 L Foot
+    400018: Bip001 L Forearm
+    400020: Bip001 L Hand
+    400022: Bip001 L Thigh
+    400024: Bip001 L Toe0
+    400026: Bip001 L Toe01
+    400028: Bip001 L Toe02
+    400030: Bip001 L Toe0Nub
+    400032: Bip001 L UpperArm
+    400034: Bip001 Neck
+    400036: Bip001 Pelvis
+    400038: Bip001 R Calf
+    400040: Bip001 R Clavicle
+    400042: Bip001 R Finger0
+    400044: Bip001 R Finger0Nub
+    400046: Bip001 R Foot
+    400048: Bip001 R Forearm
+    400050: Bip001 R Hand
+    400052: Bip001 R Thigh
+    400054: Bip001 R Toe0
+    400056: Bip001 R Toe01
+    400058: Bip001 R Toe02
+    400060: Bip001 R Toe0Nub
+    400062: Bip001 R UpperArm
+    400064: Bip001 Spine
+    400066: Bip001 Spine1
+    400068: Bip001 Spine2
+    400070: Bip001 Spine3
+    400072: Box1578957994
+    400074: Box1578957999
+    400076: Box1578958005
+    400078: Box1578958006
+    400080: Box1578958011
+    400082: Box1578958014
+    400084: Box1578958015
+    400086: Box1578958016
+    400088: Camera001
+    400090: Camera001.Target
+    400092: Camera002
+    400094: Camera002.Target
+    400096: Cylinder002
+    400098: Cylinder003
+    400100: Cylinder004
+    400102: Cylinder005
+    400104: Cylinder008
+    400106: Cylinder009
+    400108: Cylinder010
+    400110: Cylinder011
+    400112: Cylinder012
+    400114: Cylinder014
+    400116: Cylinder015
+    400118: Cylinder016
+    400120: Cylinder02
+    400122: Group002
+    400124: Group004
+    400126: Group007
+    400128: Group012
+    400130: //RootNode
+    400132: Line008
+    400134: Line009
+    400136: Line010
+    400138: Line011
+    400140: Line012
+    400142: Line013
+    400144: Line255
+    400146: Line256
+    400148: Line257
+    400150: Line260
+    400152: Object1768
+    400154: Object1770
+    400156: Object1780
+    400158: Object1788
+    400160: Object1792
+    400162: Object1794
+    400164: Object1806
+    400166: Object1808
+    400168: Object1810
+    400170: Object1818
+    400172: Object1828
+    400174: Object1832
+    400176: Object1842
+    400178: Object1848
+    400180: Object1852
+    400182: Object1854
+    400184: Object1856
+    400186: Object1882
+    400188: Object1913
+    400190: Object1915
+    400192: Object1917
+    400194: Object1919
+    400196: Object1921
+    400198: Object1930
+    400200: Object1933
+    400202: Object1935
+    400204: Object1937
+    400206: Object1939
+    400208: Object1945
+    400210: Object1963
+    400212: Object1967
+    400214: Object1978
+    400216: Object1981
+    400218: Object1982
+    400220: Object1983
+    400222: Object1984
+    400224: Object1985
+    400226: Object1988
+    400228: Object2001
+    400230: Object2002
+    400232: Object2003
+    400234: Object2012
+    400236: Object2013
+    400238: Object2014
+    400240: Object2015
+    400242: Object2017
+    400244: Object2018
+    400246: Object2019
+    400248: Object2020
+    400250: Object2021
+    400252: Object2022
+    400254: Object2023
+    400256: Object2024
+    400258: Object2025
+    400260: Object2026
+    400262: Object2027
+    400264: Object2028
+    400266: Object2029
+    400268: Object2030
+    400270: Object2031
+    400272: Object2032
+    400274: Object2033
+    400276: Object2034
+    400278: Object2035
+    400280: Object2045
+    400282: Plane001
+    400284: Plane002
+    400286: Plane004
+    400288: Plane005
+    400290: Plane008
+    400292: Plane009
+    400294: Plane010
+    400296: Rectangle55
+    400298: sddd
+    400300: Sphere001
+    400302: Sphere006
+    400304: VRayLight001
+    400306: VRayLight002
+    2300000: Box1578957994
+    2300002: Box1578957999
+    2300004: Box1578958005
+    2300006: Box1578958006
+    2300008: Box1578958011
+    2300010: Box1578958014
+    2300012: Box1578958015
+    2300014: Box1578958016
+    2300016: Cylinder002
+    2300018: Cylinder003
+    2300020: Cylinder004
+    2300022: Cylinder005
+    2300024: Cylinder008
+    2300026: Cylinder009
+    2300028: Cylinder010
+    2300030: Cylinder011
+    2300032: Cylinder012
+    2300034: Cylinder014
+    2300036: Cylinder015
+    2300038: Cylinder016
+    2300040: Cylinder02
+    2300042: Line008
+    2300044: Line009
+    2300046: Line010
+    2300048: Line011
+    2300050: Line012
+    2300052: Line013
+    2300054: Line255
+    2300056: Line256
+    2300058: Line257
+    2300060: Line260
+    2300062: Object1768
+    2300064: Object1770
+    2300066: Object1780
+    2300068: Object1788
+    2300070: Object1792
+    2300072: Object1794
+    2300074: Object1806
+    2300076: Object1808
+    2300078: Object1810
+    2300080: Object1818
+    2300082: Object1828
+    2300084: Object1832
+    2300086: Object1842
+    2300088: Object1848
+    2300090: Object1852
+    2300092: Object1854
+    2300094: Object1856
+    2300096: Object1882
+    2300098: Object1913
+    2300100: Object1915
+    2300102: Object1917
+    2300104: Object1919
+    2300106: Object1921
+    2300108: Object1930
+    2300110: Object1933
+    2300112: Object1935
+    2300114: Object1937
+    2300116: Object1939
+    2300118: Object1945
+    2300120: Object1963
+    2300122: Object1967
+    2300124: Object1978
+    2300126: Object1981
+    2300128: Object1982
+    2300130: Object1983
+    2300132: Object1984
+    2300134: Object1985
+    2300136: Object1988
+    2300138: Object2001
+    2300140: Object2002
+    2300142: Object2003
+    2300144: Object2012
+    2300146: Object2013
+    2300148: Object2014
+    2300150: Object2015
+    2300152: Object2017
+    2300154: Object2018
+    2300156: Object2019
+    2300158: Object2020
+    2300160: Object2021
+    2300162: Object2022
+    2300164: Object2023
+    2300166: Object2024
+    2300168: Object2025
+    2300170: Object2026
+    2300172: Object2027
+    2300174: Object2028
+    2300176: Object2029
+    2300178: Object2030
+    2300180: Object2031
+    2300182: Object2032
+    2300184: Object2033
+    2300186: Object2034
+    2300188: Object2035
+    2300190: Object2045
+    2300192: Plane001
+    2300194: Plane002
+    2300196: Plane004
+    2300198: Plane005
+    2300200: Plane008
+    2300202: Plane009
+    2300204: Plane010
+    2300206: Rectangle55
+    2300208: sddd
+    2300210: Sphere001
+    2300212: Sphere006
+    3300000: Box1578957994
+    3300002: Box1578957999
+    3300004: Box1578958005
+    3300006: Box1578958006
+    3300008: Box1578958011
+    3300010: Box1578958014
+    3300012: Box1578958015
+    3300014: Box1578958016
+    3300016: Cylinder002
+    3300018: Cylinder003
+    3300020: Cylinder004
+    3300022: Cylinder005
+    3300024: Cylinder008
+    3300026: Cylinder009
+    3300028: Cylinder010
+    3300030: Cylinder011
+    3300032: Cylinder012
+    3300034: Cylinder014
+    3300036: Cylinder015
+    3300038: Cylinder016
+    3300040: Cylinder02
+    3300042: Line008
+    3300044: Line009
+    3300046: Line010
+    3300048: Line011
+    3300050: Line012
+    3300052: Line013
+    3300054: Line255
+    3300056: Line256
+    3300058: Line257
+    3300060: Line260
+    3300062: Object1768
+    3300064: Object1770
+    3300066: Object1780
+    3300068: Object1788
+    3300070: Object1792
+    3300072: Object1794
+    3300074: Object1806
+    3300076: Object1808
+    3300078: Object1810
+    3300080: Object1818
+    3300082: Object1828
+    3300084: Object1832
+    3300086: Object1842
+    3300088: Object1848
+    3300090: Object1852
+    3300092: Object1854
+    3300094: Object1856
+    3300096: Object1882
+    3300098: Object1913
+    3300100: Object1915
+    3300102: Object1917
+    3300104: Object1919
+    3300106: Object1921
+    3300108: Object1930
+    3300110: Object1933
+    3300112: Object1935
+    3300114: Object1937
+    3300116: Object1939
+    3300118: Object1945
+    3300120: Object1963
+    3300122: Object1967
+    3300124: Object1978
+    3300126: Object1981
+    3300128: Object1982
+    3300130: Object1983
+    3300132: Object1984
+    3300134: Object1985
+    3300136: Object1988
+    3300138: Object2001
+    3300140: Object2002
+    3300142: Object2003
+    3300144: Object2012
+    3300146: Object2013
+    3300148: Object2014
+    3300150: Object2015
+    3300152: Object2017
+    3300154: Object2018
+    3300156: Object2019
+    3300158: Object2020
+    3300160: Object2021
+    3300162: Object2022
+    3300164: Object2023
+    3300166: Object2024
+    3300168: Object2025
+    3300170: Object2026
+    3300172: Object2027
+    3300174: Object2028
+    3300176: Object2029
+    3300178: Object2030
+    3300180: Object2031
+    3300182: Object2032
+    3300184: Object2033
+    3300186: Object2034
+    3300188: Object2035
+    3300190: Object2045
+    3300192: Plane001
+    3300194: Plane002
+    3300196: Plane004
+    3300198: Plane005
+    3300200: Plane008
+    3300202: Plane009
+    3300204: Plane010
+    3300206: Rectangle55
+    3300208: sddd
+    3300210: Sphere001
+    3300212: Sphere006
+    4300000: Object1770
+    4300002: Object1780
+    4300004: Object1788
+    4300006: Object1792
+    4300008: Object1806
+    4300010: Object1832
+    4300012: Object1842
+    4300014: Object1848
+    4300016: Object1852
+    4300018: Object1882
+    4300020: Object1930
+    4300022: Object1935
+    4300024: Object1937
+    4300026: Plane001
+    4300028: sddd
+    4300030: Cylinder002
+    4300032: Object1939
+    4300034: Box1578957999
+    4300036: Object1963
+    4300038: Object1808
+    4300040: Object1794
+    4300042: Object1810
+    4300044: Object1768
+    4300046: Object1967
+    4300048: Plane002
+    4300050: Object1818
+    4300052: Object1933
+    4300054: Object1945
+    4300056: Object1828
+    4300058: Box1578958005
+    4300060: Object1978
+    4300062: Object1983
+    4300064: Plane004
+    4300066: Object1984
+    4300068: Object1985
+    4300070: Box1578958006
+    4300072: Object1988
+    4300074: Line255
+    4300076: Line256
+    4300078: Line257
+    4300080: Line260
+    4300082: Cylinder003
+    4300084: Cylinder004
+    4300086: Cylinder005
+    4300088: Cylinder008
+    4300090: Cylinder009
+    4300092: Box1578957994
+    4300094: Rectangle55
+    4300096: Plane005
+    4300098: Plane008
+    4300100: Cylinder010
+    4300102: Cylinder011
+    4300104: Cylinder012
+    4300106: Plane009
+    4300108: Cylinder02
+    4300110: Object2003
+    4300112: Object2012
+    4300114: Object2013
+    4300116: Object2014
+    4300118: Object2015
+    4300120: Box1578958014
+    4300122: Object1913
+    4300124: Object1919
+    4300126: Object1917
+    4300128: Object1921
+    4300130: Object1915
+    4300132: Sphere001
+    4300134: Object1854
+    4300136: Object1856
+    4300138: Object1981
+    4300140: Sphere006
+    4300142: Object1982
+    4300144: Cylinder016
+    4300146: Cylinder015
+    4300148: Cylinder014
+    4300150: Box1578958011
+    4300152: Line013
+    4300154: Line012
+    4300156: Line011
+    4300158: Line010
+    4300160: Line009
+    4300162: Line008
+    4300164: Object2017
+    4300166: Object2018
+    4300168: Object2019
+    4300170: Box1578958015
+    4300172: Box1578958016
+    4300174: Object2020
+    4300176: Object2021
+    4300178: Object2022
+    4300180: Object2023
+    4300182: Object2024
+    4300184: Object2025
+    4300186: Object2026
+    4300188: Object2027
+    4300190: Object2028
+    4300192: Object2029
+    4300194: Object2030
+    4300196: Object2031
+    4300198: Object2032
+    4300200: Object2033
+    4300202: Object2034
+    4300204: Object2035
+    4300206: Object2002
+    4300208: Object2001
+    4300210: Plane010
+    4300212: Object2045
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
