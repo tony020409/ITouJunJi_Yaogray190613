@@ -1,0 +1,521 @@
+fileFormatVersion: 2
+guid: 0eee755fc4803394a8698b99ffcc0054
+timeCreated: 1528701619
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bip001
+    100002: Cylinder017
+    100004: Cylinder019
+    100006: Cylinder020
+    100008: Cylinder021
+    100010: lantern002
+    100012: lantern003
+    100014: lantern01
+    100016: lanterna
+    100018: lanternb
+    100020: lanternc
+    100022: Line012
+    100024: Line261
+    100026: Linea
+    100028: Lineb
+    100030: Object2046
+    100032: Object2047
+    100034: Object2048
+    100036: Object2050
+    100038: Object2051
+    100040: Object2053
+    100042: Object2054
+    100044: Object2055
+    100046: Object2056
+    100048: Object2057
+    100050: Object2058
+    100052: Object2059
+    100054: Object2060
+    100056: Object2061
+    100058: Object2062
+    100060: Object2063
+    100062: Object2064
+    100064: Object2065
+    100066: Object2066
+    100068: Object2067
+    100070: Object2068
+    100072: Object2069
+    100074: Object2070
+    100076: Object2071
+    100078: Object2072
+    100080: Object2073
+    100082: Object2074
+    100084: Object2076
+    100086: Object2077
+    100088: Object2078
+    100090: Object2079
+    100092: Object2080
+    100094: Plane001
+    100096: Plane002
+    100098: Plane003
+    100100: Plane005
+    100102: Sign_A
+    100104: Sign_B
+    100106: Sign_B002
+    100108: Sign_B003
+    100110: Sign_B004
+    100112: Sign_B005
+    100114: Sign_B006
+    100116: Sign_B007
+    100118: Sign_China
+    100120: Sign_China001
+    100122: Sign_China002
+    100124: Sign_D
+    100126: Sign_D001
+    100128: Sign_E
+    100130: Sign_WallMounting
+    100132: Sign_WallMounting 1
+    100134: Sign_WallMounting 2
+    100136: Sign_WallMounting 3
+    100138: Sign_WallMounting002
+    100140: Sign_WallMounting004
+    100142: Sign_WallMounting005
+    100144: Sign_WallMounting006
+    100146: Sign_WallMounting007
+    100148: Sign_WallMounting008
+    100150: Sign_WallMounting009
+    100152: //RootNode
+    400000: Bip001
+    400002: Cylinder017
+    400004: Cylinder019
+    400006: Cylinder020
+    400008: Cylinder021
+    400010: lantern002
+    400012: lantern003
+    400014: lantern01
+    400016: lanterna
+    400018: lanternb
+    400020: lanternc
+    400022: Line012
+    400024: Line261
+    400026: Linea
+    400028: Lineb
+    400030: Object2046
+    400032: Object2047
+    400034: Object2048
+    400036: Object2050
+    400038: Object2051
+    400040: Object2053
+    400042: Object2054
+    400044: Object2055
+    400046: Object2056
+    400048: Object2057
+    400050: Object2058
+    400052: Object2059
+    400054: Object2060
+    400056: Object2061
+    400058: Object2062
+    400060: Object2063
+    400062: Object2064
+    400064: Object2065
+    400066: Object2066
+    400068: Object2067
+    400070: Object2068
+    400072: Object2069
+    400074: Object2070
+    400076: Object2071
+    400078: Object2072
+    400080: Object2073
+    400082: Object2074
+    400084: Object2076
+    400086: Object2077
+    400088: Object2078
+    400090: Object2079
+    400092: Object2080
+    400094: Plane001
+    400096: Plane002
+    400098: Plane003
+    400100: Plane005
+    400102: Sign_A
+    400104: Sign_B
+    400106: Sign_B002
+    400108: Sign_B003
+    400110: Sign_B004
+    400112: Sign_B005
+    400114: Sign_B006
+    400116: Sign_B007
+    400118: Sign_China
+    400120: Sign_China001
+    400122: Sign_China002
+    400124: Sign_D
+    400126: Sign_D001
+    400128: Sign_E
+    400130: Sign_WallMounting
+    400132: Sign_WallMounting 1
+    400134: Sign_WallMounting 2
+    400136: Sign_WallMounting 3
+    400138: Sign_WallMounting002
+    400140: Sign_WallMounting004
+    400142: Sign_WallMounting005
+    400144: Sign_WallMounting006
+    400146: Sign_WallMounting007
+    400148: Sign_WallMounting008
+    400150: Sign_WallMounting009
+    400152: //RootNode
+    2300000: Cylinder017
+    2300002: Cylinder019
+    2300004: Cylinder020
+    2300006: Cylinder021
+    2300008: lantern002
+    2300010: lantern003
+    2300012: lantern01
+    2300014: lanterna
+    2300016: lanternb
+    2300018: lanternc
+    2300020: Line012
+    2300022: Line261
+    2300024: Linea
+    2300026: Lineb
+    2300028: Object2046
+    2300030: Object2047
+    2300032: Object2048
+    2300034: Object2050
+    2300036: Object2051
+    2300038: Object2053
+    2300040: Object2054
+    2300042: Object2055
+    2300044: Object2056
+    2300046: Object2057
+    2300048: Object2058
+    2300050: Object2059
+    2300052: Object2060
+    2300054: Object2061
+    2300056: Object2062
+    2300058: Object2063
+    2300060: Object2064
+    2300062: Object2065
+    2300064: Object2066
+    2300066: Object2067
+    2300068: Object2068
+    2300070: Object2069
+    2300072: Object2070
+    2300074: Object2071
+    2300076: Object2072
+    2300078: Object2073
+    2300080: Object2074
+    2300082: Object2076
+    2300084: Object2077
+    2300086: Object2078
+    2300088: Object2079
+    2300090: Object2080
+    2300092: Plane001
+    2300094: Plane002
+    2300096: Plane003
+    2300098: Plane005
+    2300100: Sign_A
+    2300102: Sign_B
+    2300104: Sign_B002
+    2300106: Sign_B003
+    2300108: Sign_B004
+    2300110: Sign_B005
+    2300112: Sign_B006
+    2300114: Sign_B007
+    2300116: Sign_China
+    2300118: Sign_China001
+    2300120: Sign_China002
+    2300122: Sign_D
+    2300124: Sign_D001
+    2300126: Sign_E
+    2300128: Sign_WallMounting
+    2300130: Sign_WallMounting 1
+    2300132: Sign_WallMounting 2
+    2300134: Sign_WallMounting 3
+    2300136: Sign_WallMounting002
+    2300138: Sign_WallMounting004
+    2300140: Sign_WallMounting005
+    2300142: Sign_WallMounting006
+    2300144: Sign_WallMounting007
+    2300146: Sign_WallMounting008
+    2300148: Sign_WallMounting009
+    3300000: Cylinder017
+    3300002: Cylinder019
+    3300004: Cylinder020
+    3300006: Cylinder021
+    3300008: lantern002
+    3300010: lantern003
+    3300012: lantern01
+    3300014: lanterna
+    3300016: lanternb
+    3300018: lanternc
+    3300020: Line012
+    3300022: Line261
+    3300024: Linea
+    3300026: Lineb
+    3300028: Object2046
+    3300030: Object2047
+    3300032: Object2048
+    3300034: Object2050
+    3300036: Object2051
+    3300038: Object2053
+    3300040: Object2054
+    3300042: Object2055
+    3300044: Object2056
+    3300046: Object2057
+    3300048: Object2058
+    3300050: Object2059
+    3300052: Object2060
+    3300054: Object2061
+    3300056: Object2062
+    3300058: Object2063
+    3300060: Object2064
+    3300062: Object2065
+    3300064: Object2066
+    3300066: Object2067
+    3300068: Object2068
+    3300070: Object2069
+    3300072: Object2070
+    3300074: Object2071
+    3300076: Object2072
+    3300078: Object2073
+    3300080: Object2074
+    3300082: Object2076
+    3300084: Object2077
+    3300086: Object2078
+    3300088: Object2079
+    3300090: Object2080
+    3300092: Plane001
+    3300094: Plane002
+    3300096: Plane003
+    3300098: Plane005
+    3300100: Sign_A
+    3300102: Sign_B
+    3300104: Sign_B002
+    3300106: Sign_B003
+    3300108: Sign_B004
+    3300110: Sign_B005
+    3300112: Sign_B006
+    3300114: Sign_B007
+    3300116: Sign_China
+    3300118: Sign_China001
+    3300120: Sign_China002
+    3300122: Sign_D
+    3300124: Sign_D001
+    3300126: Sign_E
+    3300128: Sign_WallMounting
+    3300130: Sign_WallMounting 1
+    3300132: Sign_WallMounting 2
+    3300134: Sign_WallMounting 3
+    3300136: Sign_WallMounting002
+    3300138: Sign_WallMounting004
+    3300140: Sign_WallMounting005
+    3300142: Sign_WallMounting006
+    3300144: Sign_WallMounting007
+    3300146: Sign_WallMounting008
+    3300148: Sign_WallMounting009
+    4300000: Plane001
+    4300002: Plane002
+    4300004: Plane003
+    4300006: Plane005
+    4300008: Sign_China
+    4300010: Object2060
+    4300012: Object2063
+    4300014: Sign_D
+    4300016: Sign_WallMounting
+    4300018: Object2050
+    4300020: Object2066
+    4300022: Sign_A
+    4300024: Sign_WallMounting
+    4300026: Object2047
+    4300028: Object2065
+    4300030: Sign_B
+    4300032: Sign_WallMounting
+    4300034: Object2048
+    4300036: Object2068
+    4300038: Sign_E
+    4300040: Sign_WallMounting
+    4300042: Object2046
+    4300044: Object2064
+    4300046: Sign_China001
+    4300048: Object2051
+    4300050: Object2076
+    4300052: lantern01
+    4300054: lanterna
+    4300056: lantern002
+    4300058: lanternb
+    4300060: Sign_China002
+    4300062: Object2061
+    4300064: Object2062
+    4300066: lantern003
+    4300068: lanternc
+    4300070: Sign_D001
+    4300072: Object2059
+    4300074: Object2067
+    4300076: Sign_WallMounting002
+    4300078: Sign_B002
+    4300080: Sign_WallMounting004
+    4300082: Object2053
+    4300084: Object2069
+    4300086: Sign_B003
+    4300088: Sign_WallMounting005
+    4300090: Object2054
+    4300092: Object2070
+    4300094: Sign_B004
+    4300096: Sign_WallMounting006
+    4300098: Object2055
+    4300100: Object2071
+    4300102: Sign_B005
+    4300104: Sign_WallMounting007
+    4300106: Object2056
+    4300108: Object2072
+    4300110: Sign_B006
+    4300112: Sign_WallMounting008
+    4300114: Object2057
+    4300116: Object2073
+    4300118: Sign_B007
+    4300120: Sign_WallMounting009
+    4300122: Object2058
+    4300124: Object2074
+    4300126: Object2079
+    4300128: Line261
+    4300130: Linea
+    4300132: Object2080
+    4300134: Line012
+    4300136: Lineb
+    4300138: Cylinder019
+    4300140: Cylinder020
+    4300142: Object2077
+    4300144: Cylinder017
+    4300146: Cylinder021
+    4300148: Object2078
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 59b9202cce1abbf45907ab5d51fc81f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03 - Default
+    second: {fileID: 2100000, guid: 379c376cf8ea5a149b619bec508bb185, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 07 - Default
+    second: {fileID: 2100000, guid: c27e3cbbc02d8ca42b54689f9f17ef07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: ba19938903a79ab43953fc6ed26b03fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 09 - Default
+    second: {fileID: 2100000, guid: c888f47789ae4a545b48e380cc8f5dab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13 - Default
+    second: {fileID: 2100000, guid: 6d6adb5ce8b0f5b42a71d6d7dc27a95b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 14 - Default
+    second: {fileID: 2100000, guid: f6c8f2acc4e86ee488ec528d6ccd4ef2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 15 - Default
+    second: {fileID: 2100000, guid: b349ce793465cc64590cd489ba0c7319, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 19 - Default
+    second: {fileID: 2100000, guid: fea812f0a7018144abcbd66b530808c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 20 - Default
+    second: {fileID: 2100000, guid: 8713c2bfcce934542848f31c7770b1c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21 - Default
+    second: {fileID: 2100000, guid: 5f989cc5588a72d4a80828f62b9b2ca2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
