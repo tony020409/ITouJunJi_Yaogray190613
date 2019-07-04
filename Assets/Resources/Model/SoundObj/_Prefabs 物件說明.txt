@@ -1,0 +1,12 @@
+
+【AudioSource】
+給動畫物件用的，
+透過 Anim_Control.cs 生成，
+讓動畫物件可以播多個聲音，也可以停止。
+
+
+【p_SoundPlayer】
+給Excel腳本用的，
+透過 GameControllPlaySound.cs 的指令(27)，
+用Resources.Load的方式播放Excel傳過來說要播放的音檔，
+並用 audioEnd = true; 讓 Excel知道音檔結束。
