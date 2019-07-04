@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: 666570bde5ce5c440b77fa5e71990e9d
+timeCreated: 1526363876
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Column_A
+    100002: //RootNode
+    100004: wall_A
+    100006: wall_C
+    100008: Column02_A
+    100010: Pillar
+    100012: ' wall_paper_door001'
+    100014: Paperobj001
+    100016: Pillar005
+    100018: wall_A002
+    400000: Column_A
+    400002: //RootNode
+    400004: wall_A
+    400006: wall_C
+    400008: Column02_A
+    400010: Pillar
+    400012: ' wall_paper_door001'
+    400014: Paperobj001
+    400016: Pillar005
+    400018: wall_A002
+    2300000: Column_A
+    2300002: wall_A
+    2300004: wall_C
+    2300006: Column02_A
+    2300008: Pillar
+    2300010: ' wall_paper_door001'
+    2300012: Paperobj001
+    2300014: Pillar005
+    2300016: wall_A002
+    3300000: Column_A
+    3300002: wall_A
+    3300004: wall_C
+    3300006: Column02_A
+    3300008: Pillar
+    3300010: ' wall_paper_door001'
+    3300012: Paperobj001
+    3300014: Pillar005
+    3300016: wall_A002
+    4300000: wall_C
+    4300002: wall_A
+    4300004: Column_A
+    4300006: Pillar
+    4300008: Column02_A
+    4300010: Pillar005
+    4300012: wall_A002
+    4300014: ' wall_paper_door001'
+    4300016: Paperobj001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: door wall
+    second: {fileID: 2100000, guid: c298f5897e841d74783072254b9f6baf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall A
+    second: {fileID: 2100000, guid: 6e3f95cf5bf5fdb45b0001d53b5abd55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wall C
+    second: {fileID: 2100000, guid: 5882125c712caf74a8e76c5ccac460ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wood
+    second: {fileID: 2100000, guid: 3742685852d6dee49b9bdc3137e73822, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
