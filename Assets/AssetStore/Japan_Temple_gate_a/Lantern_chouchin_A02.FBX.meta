@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: d483de773c4cbb34fb1d8d71fbbc7ac9
+timeCreated: 1529575202
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: gate_wood_a
+    100002: gate_wood_b
+    100004: lantern_chouchin_a
+    100006: //RootNode
+    100008: lantern_chouchin_a02
+    100010: PaperLight
+    100012: PaperLight002
+    100014: Txt
+    100016: Txt001
+    400000: gate_wood_a
+    400002: gate_wood_b
+    400004: lantern_chouchin_a
+    400006: //RootNode
+    400008: lantern_chouchin_a02
+    400010: PaperLight
+    400012: PaperLight002
+    400014: Txt
+    400016: Txt001
+    2300000: gate_wood_a
+    2300002: gate_wood_b
+    2300004: lantern_chouchin_a
+    2300006: lantern_chouchin_a02
+    2300008: PaperLight
+    2300010: PaperLight002
+    2300012: Txt
+    2300014: Txt001
+    2300016: //RootNode
+    3300000: gate_wood_a
+    3300002: gate_wood_b
+    3300004: lantern_chouchin_a
+    3300006: lantern_chouchin_a02
+    3300008: PaperLight
+    3300010: PaperLight002
+    3300012: Txt
+    3300014: Txt001
+    3300016: //RootNode
+    4300000: gate_wood_a
+    4300002: gate_wood_b
+    4300004: lantern_chouchin_a
+    4300006: PaperLight
+    4300008: Txt
+    4300010: lantern_chouchin_a02
+    4300012: PaperLight002
+    4300014: Txt001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: opt_gate_wood_a_cmap
+    second: {fileID: 2100000, guid: 531202935fff69a40ae6b7facc0719dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: opt_lantern_chouchin_a_cmap
+    second: {fileID: 2100000, guid: 75a4942575506194bbc0e370af00379a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
