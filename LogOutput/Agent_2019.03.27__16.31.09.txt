@@ -1,0 +1,393 @@
+﻿Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : UI模板没有找到相应的Panel, f_Create,功能失效 Launcher
+Stack : UnityEngine.Debug:Log(Object)
+ccU3DEngine.ccUIBase:f_Create()
+ccU3DEngine.ccUIBase:Awake()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : VVV 通道設置完成 = vvv36
+Stack : UnityEngine.Debug:Log(Object)
+SCTools:f_SetVVV(String) (at Assets/GameScript/SC/SCTools.cs:20)
+glo_Main:ReadGameModel() (at Assets/GameScript/Glo_Data/glo_Main.cs:176)
+glo_Main:Awake() (at Assets/GameScript/Glo_Data/glo_Main.cs:62)
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : 初始游戏
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+glo_Main:Start() (at Assets/GameScript/Glo_Data/glo_Main.cs:70)
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : C:/Users/user/AppData/LocalLow/UnicornVR/Agent
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+glo_Main:Start() (at Assets/GameScript/Glo_Data/glo_Main.cs:71)
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : InitResManager...
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+glo_Main:InitResManager() (at Assets/GameScript/Glo_Data/glo_Main.cs:105)
+glo_Main:Start() (at Assets/GameScript/Glo_Data/glo_Main.cs:78)
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : 加载资源
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+LoadResource:InitResManager() (at Assets/GameScript/ResourceManager/LoadResource.cs:32)
+LoadResource:f_StartLoad(ccCallback) (at Assets/GameScript/ResourceManager/LoadResource.cs:27)
+glo_Main:InitResManager() (at Assets/GameScript/Glo_Data/glo_Main.cs:110)
+glo_Main:Start() (at Assets/GameScript/Glo_Data/glo_Main.cs:78)
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : V:20190319031655b5m87IT5WX
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+ResManagerState_Ver:DispVer(String, String) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_Ver.cs:135)
+ResManagerState_Ver:LoadVerSuc(String) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_Ver.cs:96)
+ResManagerState_Ver:f_Execute() (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_Ver.cs:71)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : 加载脚本
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+ResManagerState_LoadSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_LoadSC.cs:42)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : 解析脚本
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:44)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : SC 0 CharacterDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : CharacterDT脚本存在空记录, 31
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+CharacterSC:DispSaveData(String) (at Assets/GameScript/SC/CharacterSC.cs:38)
+CharacterSC:f_LoadSCForData(String) (at Assets/GameScript/SC/CharacterSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : SC 1 GunDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : GunDT脚本存在空记录, 6
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+GunSC:DispSaveData(String) (at Assets/GameScript/SC/GunSC.cs:38)
+GunSC:f_LoadSCForData(String) (at Assets/GameScript/SC/GunSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : SC 2 GameControll_ParameterDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : GameControll_ParameterDT脚本存在空记录, 8
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+GameControll_ParameterSC:DispSaveData(String) (at Assets/GameScript/SC/GameControll_ParameterSC.cs:38)
+GameControll_ParameterSC:f_LoadSCForData(String) (at Assets/GameScript/SC/GameControll_ParameterSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : SC 3 GameControll_ConditionDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : GameControll_ConditionDT脚本存在空记录, 150
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+GameControll_ConditionSC:DispSaveData(String) (at Assets/GameScript/SC/GameControll_ConditionSC.cs:38)
+GameControll_ConditionSC:f_LoadSCForData(String) (at Assets/GameScript/SC/GameControll_ConditionSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : SC 4 GameControllDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : GameControllDT脚本存在空记录, 326
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+GameControllSC:DispSaveData(String) (at Assets/GameScript/SC/GameControllSC.cs:38)
+GameControllSC:f_LoadSCForData(String) (at Assets/GameScript/SC/GameControllSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : SC 5 CharacterAIDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : CharacterAIDT脚本存在空记录, 18
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+CharacterAISC:DispSaveData(String) (at Assets/GameScript/SC/CharacterAISC.cs:38)
+CharacterAISC:f_LoadSCForData(String) (at Assets/GameScript/SC/CharacterAISC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : SC 6 CharacterAIConditionDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : CharacterAIConditionDT脚本存在空记录, 11
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+CharacterAIConditionSC:DispSaveData(String) (at Assets/GameScript/SC/CharacterAIConditionSC.cs:38)
+CharacterAIConditionSC:f_LoadSCForData(String) (at Assets/GameScript/SC/CharacterAIConditionSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : SC 7 CharacterAIRunDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : CharacterAIRunDT脚本存在空记录, 24
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+CharacterAIRunSC:DispSaveData(String) (at Assets/GameScript/SC/CharacterAIRunSC.cs:38)
+CharacterAIRunSC:f_LoadSCForData(String) (at Assets/GameScript/SC/CharacterAIRunSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : SC 8 BulletDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : BulletDT脚本存在空记录, 8
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+BulletSC:DispSaveData(String) (at Assets/GameScript/SC/BulletSC.cs:38)
+BulletSC:f_LoadSCForData(String) (at Assets/GameScript/SC/BulletSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : 解析脚本成功
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:68)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-03-27    16：31：09
+Log   : 加载资源、表格花费0.6433272秒.
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+glo_Main:Callback_LoadResSuc(Object) (at Assets/GameScript/Glo_Data/glo_Main.cs:128)
+LoadResource:LoadResourceSuc(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:58)
+ResManagerState_Login:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_Login.cs:18)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+

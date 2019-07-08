@@ -1,0 +1,1081 @@
+﻿Type  :  Log
+Time  : 2019-04-02    11：56：08
+Log   : UI模板没有找到相应的Panel, f_Create,功能失效 Launcher
+Stack : UnityEngine.Debug:Log(Object)
+ccU3DEngine.ccUIBase:f_Create()
+ccU3DEngine.ccUIBase:Awake()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：08
+Log   : VVV 通道設置完成 = vvv36
+Stack : UnityEngine.Debug:Log(Object)
+SCTools:f_SetVVV(String) (at Assets/GameScript/SC/SCTools.cs:20)
+glo_Main:ReadGameModel() (at Assets/GameScript/Glo_Data/glo_Main.cs:176)
+glo_Main:Awake() (at Assets/GameScript/Glo_Data/glo_Main.cs:62)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：08
+Log   : 初始游戏
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+glo_Main:Start() (at Assets/GameScript/Glo_Data/glo_Main.cs:70)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：08
+Log   : C:/Users/user/AppData/LocalLow/UnicornVR/Agent
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+glo_Main:Start() (at Assets/GameScript/Glo_Data/glo_Main.cs:71)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：08
+Log   : InitResManager...
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+glo_Main:InitResManager() (at Assets/GameScript/Glo_Data/glo_Main.cs:105)
+glo_Main:Start() (at Assets/GameScript/Glo_Data/glo_Main.cs:78)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：08
+Log   : 加载资源
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+LoadResource:InitResManager() (at Assets/GameScript/ResourceManager/LoadResource.cs:32)
+LoadResource:f_StartLoad(ccCallback) (at Assets/GameScript/ResourceManager/LoadResource.cs:27)
+glo_Main:InitResManager() (at Assets/GameScript/Glo_Data/glo_Main.cs:110)
+glo_Main:Start() (at Assets/GameScript/Glo_Data/glo_Main.cs:78)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : V:20190402041516lTdE0xqS1x
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+ResManagerState_Ver:DispVer(String, String) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_Ver.cs:135)
+ResManagerState_Ver:LoadVerSuc(String) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_Ver.cs:96)
+ResManagerState_Ver:f_Execute() (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_Ver.cs:71)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : 加载脚本
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+ResManagerState_LoadSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_LoadSC.cs:42)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : 解析脚本
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:44)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : SC 0 CharacterDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : CharacterDT脚本存在空记录, 31
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+CharacterSC:DispSaveData(String) (at Assets/GameScript/SC/CharacterSC.cs:38)
+CharacterSC:f_LoadSCForData(String) (at Assets/GameScript/SC/CharacterSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : SC 1 GunDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : GunDT脚本存在空记录, 6
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+GunSC:DispSaveData(String) (at Assets/GameScript/SC/GunSC.cs:38)
+GunSC:f_LoadSCForData(String) (at Assets/GameScript/SC/GunSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : SC 2 GameControll_ParameterDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : GameControll_ParameterDT脚本存在空记录, 8
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+GameControll_ParameterSC:DispSaveData(String) (at Assets/GameScript/SC/GameControll_ParameterSC.cs:38)
+GameControll_ParameterSC:f_LoadSCForData(String) (at Assets/GameScript/SC/GameControll_ParameterSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : SC 3 GameControll_ConditionDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : GameControll_ConditionDT脚本存在空记录, 150
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+GameControll_ConditionSC:DispSaveData(String) (at Assets/GameScript/SC/GameControll_ConditionSC.cs:38)
+GameControll_ConditionSC:f_LoadSCForData(String) (at Assets/GameScript/SC/GameControll_ConditionSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : SC 4 GameControllDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : GameControllDT脚本存在空记录, 326
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+GameControllSC:DispSaveData(String) (at Assets/GameScript/SC/GameControllSC.cs:38)
+GameControllSC:f_LoadSCForData(String) (at Assets/GameScript/SC/GameControllSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : SC 5 CharacterAIDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : CharacterAIDT脚本存在空记录, 18
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+CharacterAISC:DispSaveData(String) (at Assets/GameScript/SC/CharacterAISC.cs:38)
+CharacterAISC:f_LoadSCForData(String) (at Assets/GameScript/SC/CharacterAISC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : SC 6 CharacterAIConditionDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : CharacterAIConditionDT脚本存在空记录, 11
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+CharacterAIConditionSC:DispSaveData(String) (at Assets/GameScript/SC/CharacterAIConditionSC.cs:38)
+CharacterAIConditionSC:f_LoadSCForData(String) (at Assets/GameScript/SC/CharacterAIConditionSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : SC 7 CharacterAIRunDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : CharacterAIRunDT脚本存在空记录, 24
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+CharacterAIRunSC:DispSaveData(String) (at Assets/GameScript/SC/CharacterAIRunSC.cs:38)
+CharacterAIRunSC:f_LoadSCForData(String) (at Assets/GameScript/SC/CharacterAIRunSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : SC 8 BulletDT
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:58)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : BulletDT脚本存在空记录, 8
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+BulletSC:DispSaveData(String) (at Assets/GameScript/SC/BulletSC.cs:38)
+BulletSC:f_LoadSCForData(String) (at Assets/GameScript/SC/BulletSC.cs:23)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:61)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : 解析脚本成功
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+SC_Pool:f_LoadSC(Byte[]) (at Assets/GameScript/SC/SC_Pool.cs:68)
+ResManagerState_DispSC:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_DispSC.cs:20)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：09
+Log   : 加载资源、表格花费0.7129245秒.
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+glo_Main:Callback_LoadResSuc(Object) (at Assets/GameScript/Glo_Data/glo_Main.cs:128)
+LoadResource:LoadResourceSuc(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:58)
+ResManagerState_Login:f_Enter(Object) (at Assets/GameScript/ResourceManager/ResManager/ResManagerState_Login.cs:18)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+LoadResource:Callback_Update(Object) (at Assets/GameScript/ResourceManager/LoadResource.cs:52)
+ccU3DEngine.ccTimeEvent:a()
+ccU3DEngine.ccTimeEvent:Xsfdsfasdfadsfa()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：15
+Log   : Login
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+ccVerifyMain2:Log(String) (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:328)
+ccVerifyMain2:On_LoginBtn() (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:186)
+UnityEngine.EventSystems.EventSystem:Update()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：15
+Log   : vrmarcade.com
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+ap:c()
+ccVerifySDK.VerifyGameSocket:f_Login(Int32, String, String, Int32, ccSocketCallback)
+ccVerityService:f_Login(Int32, String, String, Int32, ccSocketCallback) (at Assets/ccVerify/ccVerify/ccVerityService.cs:67)
+ccVerifyMain2:On_LoginBtn() (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:190)
+UnityEngine.EventSystems.EventSystem:Update()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：15
+Log   : 登陆....
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+bk:f_Enter(Object)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccVerifySDK.VerifyGameSocket:f_Login(Int32, String, String, Int32, ccSocketCallback)
+ccVerityService:f_Login(Int32, String, String, Int32, ccSocketCallback) (at Assets/ccVerify/ccVerify/ccVerityService.cs:67)
+ccVerifyMain2:On_LoginBtn() (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:190)
+UnityEngine.EventSystems.EventSystem:Update()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：15
+Log   : 初始连接....
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+a6:f_Enter(Object)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：15
+Log   : 初始连接....119.28.12.254:9800
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+a6:a(Int32)
+a6:a()
+a6:f_Enter(Object)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：15
+Log   : 登陆....
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+bk:f_Enter(Object)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：15
+Log   : Login
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+ccVerifyMain2:Log(String) (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:328)
+ccVerifyMain2:On_LoginBtn() (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:186)
+UnityEngine.EventSystems.EventSystem:Update()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：15
+Log   : vrmarcade.com
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+ap:c()
+ccVerifySDK.VerifyGameSocket:f_Login(Int32, String, String, Int32, ccSocketCallback)
+ccVerityService:f_Login(Int32, String, String, Int32, ccSocketCallback) (at Assets/ccVerify/ccVerify/ccVerityService.cs:67)
+ccVerifyMain2:On_LoginBtn() (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:190)
+UnityEngine.EventSystems.EventSystem:Update()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：15
+Log   : 登陆....
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+bk:f_Enter(Object)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccVerifySDK.VerifyGameSocket:f_Login(Int32, String, String, Int32, ccSocketCallback)
+ccVerityService:f_Login(Int32, String, String, Int32, ccSocketCallback) (at Assets/ccVerify/ccVerify/ccVerityService.cs:67)
+ccVerifyMain2:On_LoginBtn() (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:190)
+UnityEngine.EventSystems.EventSystem:Update()
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：15
+Log   : 初始连接....
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+a6:f_Enter(Object)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：15
+Log   : 初始连接....119.28.12.254:9800
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+a6:a(Int32)
+a6:a()
+a6:f_Enter(Object)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：15
+Log   : 登陆....
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+bk:f_Enter(Object)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：16
+Log   : 发:0 收:90 接收 - 类型:10002 长度:72-0-0-0-0
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：16
+Log   : 登陆成功
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+bk:c(Object)
+a:e(aaa12334, Byte[], Int32)
+a:f(aaa12334, Byte[], Int32)
+ccU3DEngine.ccSocketMessagePool:f_Router(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：16
+Log   : 登陆成功,开始验证 
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+ccVerifySDK.VerifyGameSocket:a(eVerifyMsgOperateResult)
+bk:c(Object)
+a:e(aaa12334, Byte[], Int32)
+a:f(aaa12334, Byte[], Int32)
+ccU3DEngine.ccSocketMessagePool:f_Router(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：16
+Log   : Game Ping
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+ccVerifySDK.VerifyGameSocket:f_Ping()
+ccVerifySDK.VerifyGameSocket:a(eVerifyMsgOperateResult)
+bk:c(Object)
+a:e(aaa12334, Byte[], Int32)
+a:f(aaa12334, Byte[], Int32)
+ccU3DEngine.ccSocketMessagePool:f_Router(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：16
+Log   : 重连成功
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+bk:c(Object)
+a:e(aaa12334, Byte[], Int32)
+a:f(aaa12334, Byte[], Int32)
+ccU3DEngine.ccSocketMessagePool:f_Router(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：16
+Log   : 登陆成功
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+bk:c(Object)
+a:e(aaa12334, Byte[], Int32)
+a:f(aaa12334, Byte[], Int32)
+ccU3DEngine.ccSocketMessagePool:f_Router(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：16
+Log   : 发:0 收:112 接收 - 类型:10000 长度:4-0-0-0-0
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：16
+Log   : Ping返回 1554177374
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+ccVerifySDK.BaseSocket:On_Ping(Object)
+a:e(aaa12334, Byte[], Int32)
+a:f(aaa12334, Byte[], Int32)
+ccU3DEngine.ccSocketMessagePool:f_Router(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：16
+Log   : 发:0 收:146 接收 - 类型:10 长度:16-0-0-0-0
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：16
+Log   : 可以开始游戏
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+ccVerifyMain2:Log(String) (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:328)
+ccVerifyMain2:Callback_LoginRet(eVerifyMsgOperateResult) (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:202)
+ccVerifySDK.VerifyGameSocket:f(Object)
+ccVerifySDK.BaseSocket:On_CMsg_GameCommandReturn(Object)
+a:e(aaa12334, Byte[], Int32)
+a:f(aaa12334, Byte[], Int32)
+ccU3DEngine.ccSocketMessagePool:f_Router(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：16
+Log   : On_CheckCanStartGameBtn
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+ccVerifyMain2:Log(String) (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:328)
+ccVerifyMain2:On_CheckCanStartGameBtn() (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:246)
+ccVerifyMain2:Callback_LoginRet(eVerifyMsgOperateResult) (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:214)
+ccVerifySDK.VerifyGameSocket:f(Object)
+ccVerifySDK.BaseSocket:On_CMsg_GameCommandReturn(Object)
+a:e(aaa12334, Byte[], Int32)
+a:f(aaa12334, Byte[], Int32)
+ccU3DEngine.ccSocketMessagePool:f_Router(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：17
+Log   : 发:0 收:180 接收 - 类型:10 长度:16-0-0-0-0
+Stack : UnityEngine.Debug:Log(Object)
+ccVerifySDK.MessageBox:DEBUG(String, Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：17
+Log   : 可以开始游戏
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+ccVerifyMain2:Callback_CheckCanStartGame(eVerifyMsgOperateResult) (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:251)
+ccVerifySDK.VerifyGameSocket:e(Object)
+ccVerifySDK.BaseSocket:On_CMsg_GameCommandReturn(Object)
+a:e(aaa12334, Byte[], Int32)
+a:f(aaa12334, Byte[], Int32)
+ccU3DEngine.ccSocketMessagePool:f_Router(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：17
+Log   : 載入遊戲場景...
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+ccVerifyMain2:Log(String) (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:328)
+ccVerifyMain2:Callback_CheckCanStartGame(eVerifyMsgOperateResult) (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:252)
+ccVerifySDK.VerifyGameSocket:e(Object)
+ccVerifySDK.BaseSocket:On_CMsg_GameCommandReturn(Object)
+a:e(aaa12334, Byte[], Int32)
+a:f(aaa12334, Byte[], Int32)
+ccU3DEngine.ccSocketMessagePool:f_Router(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：17
+Log   : Connect
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+ccVerifyMain2:Connect() (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:265)
+ccVerifyMain2:Callback_CheckCanStartGame(eVerifyMsgOperateResult) (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:253)
+ccVerifySDK.VerifyGameSocket:e(Object)
+ccVerifySDK.BaseSocket:On_CMsg_GameCommandReturn(Object)
+a:e(aaa12334, Byte[], Int32)
+a:f(aaa12334, Byte[], Int32)
+ccU3DEngine.ccSocketMessagePool:f_Router(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：17
+Log   : 登陆....GameSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+Socket_Login:f_Enter(Object) (at Assets/GameScript/Socket/SocketState/Socket_Login.cs:27)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+GameSocket:f_Login(ccCallback) (at Assets/GameScript/Socket/GameSocket.cs:74)
+ccVerifyMain2:Connect() (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:266)
+ccVerifyMain2:Callback_CheckCanStartGame(eVerifyMsgOperateResult) (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:253)
+ccVerifySDK.VerifyGameSocket:e(Object)
+ccVerifySDK.BaseSocket:On_CMsg_GameCommandReturn(Object)
+a:e(aaa12334, Byte[], Int32)
+a:f(aaa12334, Byte[], Int32)
+ccU3DEngine.ccSocketMessagePool:f_Router(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：17
+Log   : 登陆....ControllSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+Socket_ControllLogin:f_Enter(Object) (at Assets/GameScript/Socket/SocketState/Socket_ControllLogin.cs:27)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ControllSocket:f_Login(ccCallback) (at Assets/GameScript/Socket/ControllSocket.cs:60)
+ccVerifyMain2:Connect() (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:267)
+ccVerifyMain2:Callback_CheckCanStartGame(eVerifyMsgOperateResult) (at Assets/ccVerify/ccVerify/ccVerifyMain2.cs:253)
+ccVerifySDK.VerifyGameSocket:e(Object)
+ccVerifySDK.BaseSocket:On_CMsg_GameCommandReturn(Object)
+a:e(aaa12334, Byte[], Int32)
+a:f(aaa12334, Byte[], Int32)
+ccU3DEngine.ccSocketMessagePool:f_Router(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a(aaa12334, Byte[], Int32)
+ccVerifySDK.BaseSocket:a()
+ccVerifySDK.BaseSocket:f_Update()
+ccVerifySDK.VerifyGameSocket:f_Update()
+ccVerityService:FixedUpdate() (at Assets/ccVerify/ccVerify/ccVerityService.cs:34)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：17
+Log   : 初始连接....GameSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+Socket_Connect:f_Enter(Object) (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:25)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+GameSocket:f_Update() (at Assets/GameScript/Socket/GameSocket.cs:91)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:186)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：17
+Log   : 关闭连接...GameSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+BaseSocket:f_Close() (at Assets/GameScript/Socket/BaseSocket.cs:110)
+Socket_Connect:InitSocket(Int32) (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:49)
+Socket_Connect:Connect() (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:40)
+Socket_Connect:f_Enter(Object) (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:32)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+GameSocket:f_Update() (at Assets/GameScript/Socket/GameSocket.cs:91)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:186)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：17
+Log   : 初始连接....ControllSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+Socket_Connect:f_Enter(Object) (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:25)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+ControllSocket:f_Update() (at Assets/GameScript/Socket/ControllSocket.cs:77)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:187)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：17
+Log   : 关闭连接...ControllSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+BaseSocket:f_Close() (at Assets/GameScript/Socket/BaseSocket.cs:110)
+Socket_Connect:InitSocket(Int32) (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:49)
+Socket_Connect:Connect() (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:40)
+Socket_Connect:f_Enter(Object) (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:32)
+ccU3DEngine.ccMachineManager:f_ChangeState(ccMachineStateBase, Object)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+ControllSocket:f_Update() (at Assets/GameScript/Socket/ControllSocket.cs:77)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:187)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：23
+Log   : 重连....
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+Socket_Connect:f_Execute() (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:85)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+GameSocket:f_Update() (at Assets/GameScript/Socket/GameSocket.cs:91)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:186)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：23
+Log   : 关闭连接...GameSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+BaseSocket:f_Close() (at Assets/GameScript/Socket/BaseSocket.cs:110)
+Socket_Connect:InitSocket(Int32) (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:49)
+Socket_Connect:f_Execute() (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:86)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+GameSocket:f_Update() (at Assets/GameScript/Socket/GameSocket.cs:91)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:186)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：23
+Log   : 重连....
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+Socket_Connect:f_Execute() (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:85)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+ControllSocket:f_Update() (at Assets/GameScript/Socket/ControllSocket.cs:77)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:187)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：23
+Log   : 关闭连接...ControllSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+BaseSocket:f_Close() (at Assets/GameScript/Socket/BaseSocket.cs:110)
+Socket_Connect:InitSocket(Int32) (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:49)
+Socket_Connect:f_Execute() (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:86)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+ControllSocket:f_Update() (at Assets/GameScript/Socket/ControllSocket.cs:77)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:187)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：29
+Log   : 重连....
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+Socket_Connect:f_Execute() (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:85)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+GameSocket:f_Update() (at Assets/GameScript/Socket/GameSocket.cs:91)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:186)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：29
+Log   : 关闭连接...GameSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+BaseSocket:f_Close() (at Assets/GameScript/Socket/BaseSocket.cs:110)
+Socket_Connect:InitSocket(Int32) (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:49)
+Socket_Connect:f_Execute() (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:86)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+GameSocket:f_Update() (at Assets/GameScript/Socket/GameSocket.cs:91)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:186)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：29
+Log   : 重连....
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+Socket_Connect:f_Execute() (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:85)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+ControllSocket:f_Update() (at Assets/GameScript/Socket/ControllSocket.cs:77)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:187)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：29
+Log   : 关闭连接...ControllSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+BaseSocket:f_Close() (at Assets/GameScript/Socket/BaseSocket.cs:110)
+Socket_Connect:InitSocket(Int32) (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:49)
+Socket_Connect:f_Execute() (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:86)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+ControllSocket:f_Update() (at Assets/GameScript/Socket/ControllSocket.cs:77)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:187)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：35
+Log   : 重连....
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+Socket_Connect:f_Execute() (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:85)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+GameSocket:f_Update() (at Assets/GameScript/Socket/GameSocket.cs:91)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:186)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：35
+Log   : 关闭连接...GameSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+BaseSocket:f_Close() (at Assets/GameScript/Socket/BaseSocket.cs:110)
+Socket_Connect:InitSocket(Int32) (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:49)
+Socket_Connect:f_Execute() (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:86)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+GameSocket:f_Update() (at Assets/GameScript/Socket/GameSocket.cs:91)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:186)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：35
+Log   : 重连....
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+Socket_Connect:f_Execute() (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:85)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+ControllSocket:f_Update() (at Assets/GameScript/Socket/ControllSocket.cs:77)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:187)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：35
+Log   : 关闭连接...ControllSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+BaseSocket:f_Close() (at Assets/GameScript/Socket/BaseSocket.cs:110)
+Socket_Connect:InitSocket(Int32) (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:49)
+Socket_Connect:f_Execute() (at Assets/GameScript/Socket/SocketState/Socket_Connect.cs:86)
+ccU3DEngine.ccMachineManager:f_Update()
+BaseSocket:f_Update() (at Assets/GameScript/Socket/BaseSocket.cs:374)
+ControllSocket:f_Update() (at Assets/GameScript/Socket/ControllSocket.cs:77)
+glo_Main:Update() (at Assets/GameScript/Glo_Data/glo_Main.cs:187)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：36
+Log   : 关闭连接...GameSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+BaseSocket:f_Close() (at Assets/GameScript/Socket/BaseSocket.cs:110)
+glo_Main:OnDestroy() (at Assets/GameScript/Glo_Data/glo_Main.cs:196)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：36
+Log   : 关闭连接...GameSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+BaseSocket:f_Close() (at Assets/GameScript/Socket/BaseSocket.cs:110)
+BaseSocket:Destroy() (at Assets/GameScript/Socket/BaseSocket.cs:137)
+GameSocket:Destroy() (at Assets/GameScript/Socket/GameSocket.cs:85)
+glo_Main:OnDestroy() (at Assets/GameScript/Glo_Data/glo_Main.cs:197)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：36
+Log   : 关闭连接...ControllSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+BaseSocket:f_Close() (at Assets/GameScript/Socket/BaseSocket.cs:110)
+glo_Main:OnDestroy() (at Assets/GameScript/Glo_Data/glo_Main.cs:199)
+
+
+Type  :  Log
+Time  : 2019-04-02    11：56：36
+Log   : 关闭连接...ControllSocket
+Stack : UnityEngine.Debug:Log(Object)
+MessageBox:DEBUG(String)
+BaseSocket:f_Close() (at Assets/GameScript/Socket/BaseSocket.cs:110)
+BaseSocket:Destroy() (at Assets/GameScript/Socket/BaseSocket.cs:137)
+ControllSocket:Destroy() (at Assets/GameScript/Socket/ControllSocket.cs:71)
+glo_Main:OnDestroy() (at Assets/GameScript/Glo_Data/glo_Main.cs:200)
+
+
