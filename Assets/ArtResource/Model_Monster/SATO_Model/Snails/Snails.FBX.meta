@@ -1,54 +1,19 @@
 fileFormatVersion: 2
-guid: cea4eb3ccb8d87142acf1bff3c113709
-timeCreated: 1559373206
+guid: e1817fb8061888c4c9405350b8ba48d2
+timeCreated: 1560646804
 licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 21
   fileIDToRecycleName:
-    100000: default
-    100002: Eyes-L
-    100004: Eyes-R
-    100006: Hair-L
-    100008: Hair-R
-    100010: Head
-    100012: //RootNode
-    400000: default
-    400002: Eyes-L
-    400004: Eyes-R
-    400006: Hair-L
-    400008: Hair-R
-    400010: Head
-    400012: //RootNode
-    2300000: default
-    2300002: Eyes-L
-    2300004: Eyes-R
-    2300006: Hair-L
-    2300008: Hair-R
-    2300010: Head
-    3300000: default
-    3300002: Eyes-L
-    3300004: Eyes-R
-    3300006: Hair-L
-    3300008: Hair-R
-    3300010: Head
-    4300000: Eyes-L
-    4300002: Eyes-R
-    4300004: Hair-R
-    4300006: Hair-L
-    4300008: Head
-    4300010: default
-    9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 'Material #19'
-    second: {fileID: 2100000, guid: 394a85fb575f84a45b29fb678efd62ee, type: 2}
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Snails
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -61,7 +26,6 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -115,7 +79,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
