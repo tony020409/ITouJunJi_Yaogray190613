@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: 598f90ccc1ac6f141a07c1cfafe0f3b4
+timeCreated: 1562682020
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Base Human001LDigit11
+    100002: Base Human001RDigit11
+    100004: Base Human001Ribcage001
+    100006: //RootNode
+    100008: Fu_B_Hair_0_1
+    100010: Fu_B_Hair_1_1
+    100012: Fu_B_Hair_2_1
+    100014: Fu_B_Hair_3_1
+    100016: Fu_B_Hair_4_1
+    100018: Fu_F_Hair_0_1
+    100020: Fu_F_Hair_1_1
+    100022: Fu_Head
+    100024: Fu_L_Calf
+    100026: Fu_L_Clavicle
+    100028: Fu_L_Finger_0_1
+    100030: Fu_L_Finger_0_2
+    100032: Fu_L_Finger_1_1
+    100034: Fu_L_Finger_1_2
+    100036: Fu_L_Finger_1_3
+    100038: Fu_L_Finger_2_1
+    100040: Fu_L_Finger_2_2
+    100042: Fu_L_Finger_2_3
+    100044: Fu_L_Finger_3_1
+    100046: Fu_L_Finger_3_2
+    100048: Fu_L_Finger_3_3
+    100050: Fu_L_Finger_4_1
+    100052: Fu_L_Finger_4_2
+    100054: Fu_L_Finger_4_3
+    100056: Fu_L_Foot
+    100058: Fu_L_Forearm
+    100060: Fu_L_Hair_0_1
+    100062: Fu_L_Hair_1_1
+    100064: Fu_L_Hair_2_1
+    100066: Fu_L_Hair_3_1
+    100068: Fu_L_Hair_4_1
+    100070: Fu_L_Hair_5_1
+    100072: Fu_L_Hair_6_1
+    100074: Fu_L_Hand
+    100076: Fu_L_Thigh
+    100078: Fu_L_Toe
+    100080: Fu_L_UpperArm
+    100082: Fu_Neck
+    100084: Fu_Pelvis
+    100086: Fu_R_Calf
+    100088: Fu_R_Clavicle
+    100090: Fu_R_Finger_0_1
+    100092: Fu_R_Finger_0_2
+    100094: Fu_R_Finger_1_1
+    100096: Fu_R_Finger_1_2
+    100098: Fu_R_Finger_1_3
+    100100: Fu_R_Finger_2_1
+    100102: Fu_R_Finger_2_2
+    100104: Fu_R_Finger_2_3
+    100106: Fu_R_Finger_3_1
+    100108: Fu_R_Finger_3_2
+    100110: Fu_R_Finger_3_3
+    100112: Fu_R_Finger_4_1
+    100114: Fu_R_Finger_4_2
+    100116: Fu_R_Finger_4_3
+    100118: Fu_R_Foot
+    100120: Fu_R_Forearm
+    100122: Fu_R_Hair_0_1
+    100124: Fu_R_Hair_1_1
+    100126: Fu_R_Hair_2_1
+    100128: Fu_R_Hair_3_1
+    100130: Fu_R_Hair_4_1
+    100132: Fu_R_Hair_5_1
+    100134: Fu_R_Hair_6_1
+    100136: Fu_R_Hand
+    100138: Fu_R_Thigh
+    100140: Fu_R_Toe
+    100142: Fu_R_UpperArm
+    100144: Fu_Spine_1
+    100146: Fu_Spine_2
+    100148: Fu_Spine_3
+    100150: fubody_low
+    100152: Hair
+    400000: Base Human001LDigit11
+    400002: Base Human001RDigit11
+    400004: Base Human001Ribcage001
+    400006: //RootNode
+    400008: Fu_B_Hair_0_1
+    400010: Fu_B_Hair_1_1
+    400012: Fu_B_Hair_2_1
+    400014: Fu_B_Hair_3_1
+    400016: Fu_B_Hair_4_1
+    400018: Fu_F_Hair_0_1
+    400020: Fu_F_Hair_1_1
+    400022: Fu_Head
+    400024: Fu_L_Calf
+    400026: Fu_L_Clavicle
+    400028: Fu_L_Finger_0_1
+    400030: Fu_L_Finger_0_2
+    400032: Fu_L_Finger_1_1
+    400034: Fu_L_Finger_1_2
+    400036: Fu_L_Finger_1_3
+    400038: Fu_L_Finger_2_1
+    400040: Fu_L_Finger_2_2
+    400042: Fu_L_Finger_2_3
+    400044: Fu_L_Finger_3_1
+    400046: Fu_L_Finger_3_2
+    400048: Fu_L_Finger_3_3
+    400050: Fu_L_Finger_4_1
+    400052: Fu_L_Finger_4_2
+    400054: Fu_L_Finger_4_3
+    400056: Fu_L_Foot
+    400058: Fu_L_Forearm
+    400060: Fu_L_Hair_0_1
+    400062: Fu_L_Hair_1_1
+    400064: Fu_L_Hair_2_1
+    400066: Fu_L_Hair_3_1
+    400068: Fu_L_Hair_4_1
+    400070: Fu_L_Hair_5_1
+    400072: Fu_L_Hair_6_1
+    400074: Fu_L_Hand
+    400076: Fu_L_Thigh
+    400078: Fu_L_Toe
+    400080: Fu_L_UpperArm
+    400082: Fu_Neck
+    400084: Fu_Pelvis
+    400086: Fu_R_Calf
+    400088: Fu_R_Clavicle
+    400090: Fu_R_Finger_0_1
+    400092: Fu_R_Finger_0_2
+    400094: Fu_R_Finger_1_1
+    400096: Fu_R_Finger_1_2
+    400098: Fu_R_Finger_1_3
+    400100: Fu_R_Finger_2_1
+    400102: Fu_R_Finger_2_2
+    400104: Fu_R_Finger_2_3
+    400106: Fu_R_Finger_3_1
+    400108: Fu_R_Finger_3_2
+    400110: Fu_R_Finger_3_3
+    400112: Fu_R_Finger_4_1
+    400114: Fu_R_Finger_4_2
+    400116: Fu_R_Finger_4_3
+    400118: Fu_R_Foot
+    400120: Fu_R_Forearm
+    400122: Fu_R_Hair_0_1
+    400124: Fu_R_Hair_1_1
+    400126: Fu_R_Hair_2_1
+    400128: Fu_R_Hair_3_1
+    400130: Fu_R_Hair_4_1
+    400132: Fu_R_Hair_5_1
+    400134: Fu_R_Hair_6_1
+    400136: Fu_R_Hand
+    400138: Fu_R_Thigh
+    400140: Fu_R_Toe
+    400142: Fu_R_UpperArm
+    400144: Fu_Spine_1
+    400146: Fu_Spine_2
+    400148: Fu_Spine_3
+    400150: fubody_low
+    400152: Hair
+    4300000: fubody_low
+    4300002: Hair
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: fubody_low
+    13700002: Hair
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 300
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

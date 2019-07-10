@@ -40,6 +40,26 @@ namespace RootMotion.Demos {
 					interactionSystem.ResumeAll();
 				}
 			}
+            
 		}
-	}
+
+        public void Start_Interaction()
+        {
+            foreach (FullBodyBipedEffector e in effectors)
+            {
+                interactionSystem.StartInteraction(e, interactionObject, true);
+            }
+        }
+
+        public void Stop_Interaction()
+        {
+            if (GUILayout.Button("Resume Interaction With " + interactionObject.name))
+            {
+
+                interactionSystem.ResumeAll();
+            }
+        }
+    }
+
+    
 }
