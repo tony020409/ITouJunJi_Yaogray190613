@@ -53,11 +53,8 @@ namespace RootMotion.Demos {
 
         public void Stop_Interaction()
         {
-            if (GUILayout.Button("Resume Interaction With " + interactionObject.name))
-            {
 
-                interactionSystem.ResumeAll();
-            }
+             interactionSystem.ResumeAll();
         }
     }
 

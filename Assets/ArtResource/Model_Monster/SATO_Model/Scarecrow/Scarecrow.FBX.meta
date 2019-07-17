@@ -1,122 +1,65 @@
 fileFormatVersion: 2
-guid: 8717fbcb962edc64092c8b57ea12bc9f
-timeCreated: 1562027621
+guid: 16733d2a79d6b614fbc14340a74dfeae
+timeCreated: 1559374875
 licenseType: Free
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 22
   fileIDToRecycleName:
-    100000: CATRigHub001
-    100002: CATRigHub001Bone01_Cloth004
-    100004: CATRigHub001Bone01_Cloth005
-    100006: CATRigHub001Bone01_Cloth006
-    100008: CATRigHub001Bone01_Cloth007
-    100010: CATRigHub001Bone01_Cloth008
-    100012: CATRigHub001Bone01_Cloth01
-    100014: CATRigHub001Bone01_Cloth01 1
-    100016: CATRigHub001Bone01_Cloth01 2
-    100018: CATRigHub001Bone01_Cloth01 3
-    100020: CATRigHub001Bone01_Cloth01Bone001
-    100022: CATRigHub001Bone01_Cloth01Bone002
-    100024: CATRigHub001Bone01_Cloth02
-    100026: CATRigHub001Bone01_Cloth03
-    100028: CATRigHub002
-    100030: CATRigHub002_Hdad
-    100032: CATRigHub002_Hdad_Hair
-    100034: CATRigHub002_Hdad_Hair001
-    100036: CATRigHub002_Hdad_Hair002
-    100038: CATRigHub002_Hdad_Hair003
-    100040: CATRigHub002_Hdad_HairBone001
-    100042: CATRigHub002_Hdad_HairBone001Bone001
-    100044: CATRigHub002_Hdad_HairBone001Bone001Bone001
-    100046: CATRigHub002_Hdad_HairBone001Bone001Bone002
-    100048: CATRigHub002_Hdad_HairBone001Bone002
-    100050: CATRigHub002_Hdad_HairBone001Bone003
-    100052: CATRigHub002_Hdad_HairBone001Bone004
-    100054: CATRigHub002_Hdad_HairBone002
-    100056: CATRigHub002_Hdad_HairBone003
-    100058: CATRigHub002_Hdad_HairBone004
-    100060: CATRigHub002Bone001
-    100062: CATRigLArm003
-    100064: CATRigLArm004
-    100066: CATRigLArm1
-    100068: CATRigLArm2
-    100070: CATRigLArmCollarbone
-    100072: CATRigLArmCollarbone001
-    100074: CATRigLArmPalm
-    100076: CATRigLArmPalm001
-    100078: CATRigLLeg1
-    100080: CATRigLLeg2
-    100082: CATRigLLegAnkle
-    100084: CATRigSpine1
-    100086: CATRigSpine2
-    100088: //RootNode
-    100090: Scarecrow_01
-    100092: Scarecrow_Body
-    100094: Scarecrow_Hair
-    100096: Scarecrow_Head
-    400000: CATRigHub001
-    400002: CATRigHub001Bone01_Cloth004
-    400004: CATRigHub001Bone01_Cloth005
-    400006: CATRigHub001Bone01_Cloth006
-    400008: CATRigHub001Bone01_Cloth007
-    400010: CATRigHub001Bone01_Cloth008
-    400012: CATRigHub001Bone01_Cloth01
-    400014: CATRigHub001Bone01_Cloth01 1
-    400016: CATRigHub001Bone01_Cloth01 2
-    400018: CATRigHub001Bone01_Cloth01 3
-    400020: CATRigHub001Bone01_Cloth01Bone001
-    400022: CATRigHub001Bone01_Cloth01Bone002
-    400024: CATRigHub001Bone01_Cloth02
-    400026: CATRigHub001Bone01_Cloth03
-    400028: CATRigHub002
-    400030: CATRigHub002_Hdad
-    400032: CATRigHub002_Hdad_Hair
-    400034: CATRigHub002_Hdad_Hair001
-    400036: CATRigHub002_Hdad_Hair002
-    400038: CATRigHub002_Hdad_Hair003
-    400040: CATRigHub002_Hdad_HairBone001
-    400042: CATRigHub002_Hdad_HairBone001Bone001
-    400044: CATRigHub002_Hdad_HairBone001Bone001Bone001
-    400046: CATRigHub002_Hdad_HairBone001Bone001Bone002
-    400048: CATRigHub002_Hdad_HairBone001Bone002
-    400050: CATRigHub002_Hdad_HairBone001Bone003
-    400052: CATRigHub002_Hdad_HairBone001Bone004
-    400054: CATRigHub002_Hdad_HairBone002
-    400056: CATRigHub002_Hdad_HairBone003
-    400058: CATRigHub002_Hdad_HairBone004
-    400060: CATRigHub002Bone001
-    400062: CATRigLArm003
-    400064: CATRigLArm004
-    400066: CATRigLArm1
-    400068: CATRigLArm2
-    400070: CATRigLArmCollarbone
-    400072: CATRigLArmCollarbone001
-    400074: CATRigLArmPalm
-    400076: CATRigLArmPalm001
-    400078: CATRigLLeg1
-    400080: CATRigLLeg2
-    400082: CATRigLLegAnkle
-    400084: CATRigSpine1
-    400086: CATRigSpine2
-    400088: //RootNode
-    400090: Scarecrow_01
-    400092: Scarecrow_Body
-    400094: Scarecrow_Hair
-    400096: Scarecrow_Head
-    4300000: Scarecrow_01
-    4300002: Scarecrow_Head
-    4300004: Scarecrow_Hair
-    4300006: Scarecrow_Body
-    7400000: Scarecrow
+    100000: Bamboo-do
+    100002: Bamboo-S
+    100004: Bamboo-up
+    100006: Body
+    100008: Hair-1
+    100010: Hair-2
+    100012: Hair-3
+    100014: Head
+    100016: //RootNode
+    400000: Bamboo-do
+    400002: Bamboo-S
+    400004: Bamboo-up
+    400006: Body
+    400008: Hair-1
+    400010: Hair-2
+    400012: Hair-3
+    400014: Head
+    400016: //RootNode
+    2300000: Bamboo-do
+    2300002: Bamboo-S
+    2300004: Bamboo-up
+    2300006: Body
+    2300008: Hair-1
+    2300010: Hair-2
+    2300012: Hair-3
+    2300014: Head
+    3300000: Bamboo-do
+    3300002: Bamboo-S
+    3300004: Bamboo-up
+    3300006: Body
+    3300008: Hair-1
+    3300010: Hair-2
+    3300012: Hair-3
+    3300014: Head
+    4300000: Bamboo-do
+    4300002: Bamboo-S
+    4300004: Bamboo-up
+    4300006: Head
+    4300008: Hair-1
+    4300010: Hair-2
+    4300012: Hair-3
+    4300014: Body
+    7400000: Take 001
     9500000: //RootNode
-    13700000: Scarecrow_01
-    13700002: Scarecrow_Body
-    13700004: Scarecrow_Hair
-    13700006: Scarecrow_Head
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scarecrow-Color
+    second: {fileID: 2100000, guid: 8e2cf047808db844da96e7a2a8530939, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -129,6 +72,7 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -136,35 +80,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Scarecrow
-      takeName: Take 001
-      firstFrame: 1
-      lastFrame: 120
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []

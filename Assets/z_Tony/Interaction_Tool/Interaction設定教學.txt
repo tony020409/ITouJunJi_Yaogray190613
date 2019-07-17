@@ -1,0 +1,6 @@
+1.範例檔中的InteractionSystemTestGUI.cs是原ik的程式碼，有修改裡面的內容. 
+2.在PlayTarget掛上rigbody , 取消Use Gravity.
+3.隨機創造一個帶有collider的物件，並掛上InteractionController.cs 
+  Target_Monster中放入要作用的ik模型. 模型上必須帶有Full body biped ik 與 Aim ik.
+4.將PlayTarget 移入 In_Collider ik功能將會啟用
+5.將PlayTarget 移入 Out_Collider ik功能將會關閉
