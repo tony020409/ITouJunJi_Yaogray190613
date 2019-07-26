@@ -12,7 +12,7 @@ Material:
     _IS_BLENDADDTOMATCAP_ON _IS_FILTER_HICUTPOINTLIGHTCOLOR_ON _IS_LIGHTCOLOR_1ST_SHADE_ON
     _IS_LIGHTCOLOR_2ND_SHADE_ON _IS_LIGHTCOLOR_AP_RIMLIGHT_ON _IS_LIGHTCOLOR_BASE_ON
     _IS_LIGHTCOLOR_HIGHCOLOR_ON _IS_LIGHTCOLOR_MATCAP_ON _IS_LIGHTCOLOR_RIMLIGHT_ON
-    _OUTLINE_NML _SET_SYSTEMSHADOWSTOBASE_ON
+    _NORMALMAP _OUTLINE_NML _SET_SYSTEMSHADOWSTOBASE_ON
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -44,7 +44,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 3a7babf233bce9a44af0364793c406a0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:

@@ -12,7 +12,9 @@ using DG.Tweening;
 public class Test_VR_Move_ViveInput : MonoBehaviour {
 
     /// <summary> 是否啟用圓盤移動 </summary>  
-    [Rename("是否啟用圓盤移動")] public bool use_TestMove = false;
+    [Rename("是否啟用圓盤移動")]
+    public bool use_TestMove = false;
+
 
     public enum EM_VR_Move {
         Face = 1,      //移動方式1 - 朝攝影機看的方向移動
@@ -23,37 +25,31 @@ public class Test_VR_Move_ViveInput : MonoBehaviour {
         Teleport = 6,  //移動方式6 - 產生一雷射光，瞬間移動到光點位置 (還沒弄)
         PC = 7,        //移動方式7 - 在家沒 VR時，測試用的
     }
-
     /// <summary> 移動模式 </summary>
     [Rename("移動模式")] public EM_VR_Move mState = EM_VR_Move.SKStudios;
 
     [Line()]
-
     /// <summary> 玩家物件(Transform) </summary>  
     [Rename("放入玩家節點 (Player[CameraRig])")] public Transform player;
-
     /// <summary> 頭盔朝向 </summary> 
     [Rename("放入玩家攝影機 (Camera(eye))")] public Transform dic;
 
-    [Line()]
 
+
+    [Line()]
     /// <summary> 移動速度 </summary> 
     [Rename("移動速度")] public float moveSpeed = 1.0f;
-
     /// <summary> 轉向速度 </summary> 
     [Rename("轉向速度")] public float turnSpeed = 10.0f;
 
-    [Line()]
 
+
+    [Line()]
     /// <summary> PC模式下槍的位置 </summary> 
     [Rename("槍")] public Transform m_Gun;
-
     /// <summary> PC模式下槍的位置 </summary> 
     [Rename("PC模式下槍的位置")] public Transform PC_GunPos;
-
-    /// <summary>
-    /// 滑鼠視角用
-    /// </summary>
+    /// <summary> 滑鼠視角用 </summary>
     private Vector2 rotation = new Vector2(0, 0);
 
 
