@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80f92582e174d4709b1620a0c403814b, type: 3}
+  m_Name: Tank
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 2b6428feef10f4a37b858161ae95e4a1, type: 3}
+  - {fileID: 8300000, guid: 2194b1bf78c12467084e1c11b82ec607, type: 3}
+  - {fileID: 8300000, guid: e1028eb8623ef4407b2ed16d7ca9fe57, type: 3}
+  volume:
+    minValue: 0.8132238
+    maxValue: 1
+  pitch:
+    minValue: 0.7149795
+    maxValue: 1.6115055
