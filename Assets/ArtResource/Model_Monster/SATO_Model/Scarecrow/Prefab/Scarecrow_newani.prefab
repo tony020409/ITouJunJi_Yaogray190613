@@ -211,7 +211,7 @@ Transform:
   - {fileID: 4035728484254862}
   m_Father: {fileID: 4778360192953814}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -1.1177692, y: 11.843107, z: 12.620949}
 --- !u!4 &4035728484254862
 Transform:
   m_ObjectHideFlags: 1
@@ -225,7 +225,7 @@ Transform:
   - {fileID: 4660165065522450}
   m_Father: {fileID: 4020195210642160}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -1.8361521, y: 13.375666, z: -0.6341672}
 --- !u!4 &4117389593136186
 Transform:
   m_ObjectHideFlags: 1
@@ -253,7 +253,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4117389593136186}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 89.98021, y: 0, z: 0}
 --- !u!4 &4206490196981844
 Transform:
   m_ObjectHideFlags: 1
@@ -353,8 +353,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1472264049838768}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -3.06}
+  m_LocalRotation: {x: 0, y: -0.99095047, z: 0, w: 0.13422833}
+  m_LocalPosition: {x: -0.8142107, y: 0.1400003, z: -0.2520197}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4117389593136186}
@@ -364,7 +364,7 @@ Transform:
   - {fileID: 4545148555396812}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -164.572, z: 0}
 --- !u!23 &23462016645995714
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -412,8 +412,8 @@ Animator:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1472264049838768}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: c0f5cb300662a5e4a800daf6ff4d71fd, type: 3}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: a76f3b379f6105e4e98e815bf20b8957, type: 3}
+  m_Controller: {fileID: 9100000, guid: 83f3276385840084693c1e0dbd9bbd6a, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -570,7 +570,7 @@ SkinnedMeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 272318bf7e8666a4290b0a0f304a5fd6, type: 2}
+  - {fileID: 2100000, guid: ebc8b319ebd50da41946014c2f260f84, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

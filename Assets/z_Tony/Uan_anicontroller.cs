@@ -15,7 +15,7 @@ public class Uan_anicontroller : MonoBehaviour {
 	void Update () {
         if (Input.GetKeyDown(KeyCode.Alpha1))
         {
-            ani.Play("idle01");
+            ani.Play("idle");
         }
 
         if (Input.GetKeyDown(KeyCode.Alpha2))
