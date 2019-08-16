@@ -9,19 +9,19 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1714143814883202}
+  m_RootGameObject: {fileID: 1121734924875260}
   m_IsPrefabParent: 1
---- !u!1 &1714143814883202
+--- !u!1 &1121734924875260
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4154073851118812}
-  - component: {fileID: 33790079441964300}
-  - component: {fileID: 23619408227300242}
-  - component: {fileID: 95026712119778262}
+  - component: {fileID: 4843540987464552}
+  - component: {fileID: 33848347326877254}
+  - component: {fileID: 23007484565486240}
+  - component: {fileID: 95455205546288778}
   m_Layer: 0
   m_Name: OilBoy03
   m_TagString: Untagged
@@ -29,25 +29,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4154073851118812
+--- !u!4 &4843540987464552
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1714143814883202}
+  m_GameObject: {fileID: 1121734924875260}
   m_LocalRotation: {x: -0.004986038, y: -0.9487352, z: -0.31575936, w: 0.01314529}
-  m_LocalPosition: {x: -1.925, y: -7.827203, z: 11.3442}
-  m_LocalScale: {x: 21, y: 21, z: 21}
+  m_LocalPosition: {x: -1.1798768, y: 6.312797, z: 9.8942}
+  m_LocalScale: {x: 21.000011, y: 21, z: 21.000011}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -143.182, y: -358.44, z: 180.083}
---- !u!23 &23619408227300242
+--- !u!23 &23007484565486240
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1714143814883202}
+  m_GameObject: {fileID: 1121734924875260}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -74,20 +74,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!33 &33790079441964300
+--- !u!33 &33848347326877254
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1714143814883202}
+  m_GameObject: {fileID: 1121734924875260}
   m_Mesh: {fileID: 4300000, guid: 43d484c0cd9a92040a82f444a676350c, type: 3}
---- !u!95 &95026712119778262
+--- !u!95 &95455205546288778
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1714143814883202}
+  m_GameObject: {fileID: 1121734924875260}
   m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: 43d484c0cd9a92040a82f444a676350c, type: 3}
   m_Controller: {fileID: 0}

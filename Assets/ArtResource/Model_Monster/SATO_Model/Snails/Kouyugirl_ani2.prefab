@@ -403,6 +403,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4019800786833082}
   - component: {fileID: 95085320816788886}
+  - component: {fileID: 114664440122168960}
+  - component: {fileID: 114381813312781374}
   m_Layer: 0
   m_Name: Kouyugirl_ani2
   m_TagString: Untagged
@@ -444,9 +446,9 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1970482034858816}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0.34615615, z: -0, w: 0.938177}
+  m_LocalPosition: {x: 1.534, y: 10.054, z: -2.603}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children:
   - {fileID: 4443274161440566}
   - {fileID: 4137363482965594}
@@ -457,7 +459,7 @@ Transform:
   - {fileID: 4466595917604664}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -40.505, z: 0}
 --- !u!4 &4030565212136294
 Transform:
   m_ObjectHideFlags: 1
@@ -936,6 +938,90 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114381813312781374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1970482034858816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aa3befc9f4be344ea3151fc2a673282, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ani: {fileID: 95085320816788886}
+--- !u!114 &114664440122168960
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1970482034858816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 776adaaacdc5c4e8ab0395120a6e972b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fixTransforms: 1
+  solver:
+    IKPosition: {x: -0.020790458, y: 10.458314, z: -0.7547455}
+    IKPositionWeight: 1
+    root: {fileID: 4019800786833082}
+    target: {fileID: 0}
+    spine: []
+    head:
+      transform: {fileID: 4854378964198244}
+      weight: 1
+      solverPosition: {x: 0, y: 0, z: 0}
+      solverRotation: {x: 0, y: 0, z: 0, w: 1}
+      defaultLocalPosition: {x: -0, y: 0, z: 0.70884216}
+      defaultLocalRotation: {x: 0.70710695, y: 4.3297793e-17, z: -0.70710665, w: 4.3297813e-17}
+      length: 0
+      sqrMag: 0
+      axis: {x: 0.00000014364278, y: 1.0000002, z: -0.0000001218011}
+    eyes:
+    - transform: {fileID: 4803913044095388}
+      weight: 0
+      solverPosition: {x: 0, y: 0, z: 0}
+      solverRotation: {x: 0, y: 0, z: 0, w: 0}
+      defaultLocalPosition: {x: -0.020052869, y: 0.3943036, z: 0.1945288}
+      defaultLocalRotation: {x: 0.7279155, y: -0.6795325, z: -0.06667279, w: -0.0626842}
+      length: 0
+      sqrMag: 0
+      axis: {x: -0.980926, y: -0.06861258, z: 0.18187003}
+    - transform: {fileID: 4243869780184498}
+      weight: 0
+      solverPosition: {x: 0, y: 0, z: 0}
+      solverRotation: {x: 0, y: 0, z: 0, w: 0}
+      defaultLocalPosition: {x: -0.02848473, y: 0.384506, z: -0.2100999}
+      defaultLocalRotation: {x: 0.7279155, y: -0.6795325, z: -0.06667279, w: -0.0626842}
+      length: 0
+      sqrMag: 0
+      axis: {x: -0.980926, y: -0.06861258, z: 0.18187003}
+    bodyWeight: 0.5
+    headWeight: 0.5
+    eyesWeight: 0.4
+    clampWeight: 0.5
+    clampWeightHead: 0.903
+    clampWeightEyes: 0.5
+    clampSmoothing: 2
+    spineWeightCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.3
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
 --- !u!137 &137354913868139562
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

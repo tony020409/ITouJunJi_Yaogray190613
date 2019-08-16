@@ -3972,15 +3972,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccc1db87478e94a42875321f75d0c7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EffectType: 0
   ColliderRadius: 0.2
   EffectRadius: 0
+  UseMoveVector: 0
   Target: {fileID: 0}
+  MoveVector: {x: 0, y: 0, z: 1}
   MoveSpeed: 1
-  MoveDistance: 10
   IsHomingMove: 0
+  MoveDistance: 10
   IsVisible: 0
-  DeactivateAfterCollision: 0
+  InstanceBehaviour: 3
   DeactivateTimeDelay: 0
+  DestroyTimeDelay: 10
   LayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -4015,15 +4019,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccc1db87478e94a42875321f75d0c7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EffectType: 0
   ColliderRadius: 0.2
   EffectRadius: 0
+  UseMoveVector: 0
   Target: {fileID: 0}
+  MoveVector: {x: 0, y: 0, z: 1}
   MoveSpeed: 1
-  MoveDistance: 10
   IsHomingMove: 0
+  MoveDistance: 10
   IsVisible: 0
-  DeactivateAfterCollision: 0
+  InstanceBehaviour: 3
   DeactivateTimeDelay: 0
+  DestroyTimeDelay: 10
   LayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -4220,15 +4228,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccc1db87478e94a42875321f75d0c7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EffectType: 0
   ColliderRadius: 0.2
   EffectRadius: 0
+  UseMoveVector: 0
   Target: {fileID: 0}
+  MoveVector: {x: 0, y: 0, z: 1}
   MoveSpeed: 1
-  MoveDistance: 10
   IsHomingMove: 0
+  MoveDistance: 10
   IsVisible: 0
-  DeactivateAfterCollision: 0
+  InstanceBehaviour: 3
   DeactivateTimeDelay: 0
+  DestroyTimeDelay: 10
   LayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -4263,15 +4275,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccc1db87478e94a42875321f75d0c7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EffectType: 0
   ColliderRadius: 0.2
   EffectRadius: 0
+  UseMoveVector: 0
   Target: {fileID: 0}
+  MoveVector: {x: 0, y: 0, z: 1}
   MoveSpeed: 1
-  MoveDistance: 10
   IsHomingMove: 0
+  MoveDistance: 10
   IsVisible: 0
-  DeactivateAfterCollision: 0
+  InstanceBehaviour: 3
   DeactivateTimeDelay: 0
+  DestroyTimeDelay: 10
   LayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -4828,15 +4844,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccc1db87478e94a42875321f75d0c7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EffectType: 0
   ColliderRadius: 0.2
   EffectRadius: 0
+  UseMoveVector: 0
   Target: {fileID: 0}
+  MoveVector: {x: 0, y: 0, z: 1}
   MoveSpeed: 1
-  MoveDistance: 10
   IsHomingMove: 0
+  MoveDistance: 10
   IsVisible: 0
-  DeactivateAfterCollision: 0
+  InstanceBehaviour: 3
   DeactivateTimeDelay: 0
+  DestroyTimeDelay: 10
   LayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -4851,15 +4871,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccc1db87478e94a42875321f75d0c7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EffectType: 0
   ColliderRadius: 0.2
   EffectRadius: 0
+  UseMoveVector: 0
   Target: {fileID: 0}
+  MoveVector: {x: 0, y: 0, z: 1}
   MoveSpeed: 1
-  MoveDistance: 10
   IsHomingMove: 0
+  MoveDistance: 10
   IsVisible: 0
-  DeactivateAfterCollision: 0
+  InstanceBehaviour: 3
   DeactivateTimeDelay: 0
+  DestroyTimeDelay: 10
   LayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -4960,7 +4984,7 @@ MonoBehaviour:
   initialized: 1
   pooledParticles: 10
   ropePath: {fileID: 114359695839904446}
-  section: {fileID: 11400000, guid: a12fab338b6cc450daae6f6c041fef86, type: 2}
+  section: {fileID: 0}
   sectionTwist: 0
   sectionThicknessScale: 0.8
   thicknessFromParticles: 1
