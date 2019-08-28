@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using RootMotion.FinalIK;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -25,10 +26,15 @@ public class All_anicontroller : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.W))
         {
             ani.Play(ani2);
+            if (gameObject.name == "FuFace_9F")
+            {
+                GetComponent<AimIK>().enabled = true;
+            }
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
             ani.Play(ani3);
+
         }
 
 
