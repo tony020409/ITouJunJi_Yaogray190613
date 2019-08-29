@@ -12,7 +12,7 @@ function Update () {
 	if(Input.GetKeyDown(KeyCode.Z))
 	{
 		if(i<=0)
-			i= 47;
+			i= 51;
 
 		else
 			i--;
@@ -22,7 +22,7 @@ function Update () {
 	
 	if(Input.GetKeyDown(KeyCode.X))
 	{
-		if(i< 47)
+		if(i< 51)
 			i++;
 
 		else

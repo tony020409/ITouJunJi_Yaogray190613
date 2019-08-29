@@ -34,11 +34,8 @@ function LateUpdate () {
         
         transform.rotation = rotation;
         transform.position = position;
-
-        distance = Mathf.Clamp(distance - Input.GetAxis("Mouse ScrollWheel")*5, 30,90);
     }
 }
-
 
 static function ClampAngle (angle : float, min : float, max : float) {
 	if (angle < -360)

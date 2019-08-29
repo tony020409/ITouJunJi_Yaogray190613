@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: WaterSplashes2
-  m_Shader: {fileID: 4800000, guid: 4775e5a8f344d6348adf934e722da85d, type: 3}
+  m_Shader: {fileID: 4800000, guid: dfe6e51c0ffb87246af0df6ac28d4a6e, type: 3}
   m_ShaderKeywords: BlendAlpha Clip_OFF FrameBlend_OFF SoftParticles_OFF USE_ALPHA_CLIPING
     USE_SOFT_PARTICLES VertLight4_ON
   m_LightmapFlags: 5
@@ -64,7 +64,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - CullMode: 2
     - DstMode: 10
     - SrcMode: 5
     - _AlphaClip: 50
@@ -81,7 +80,6 @@ Material:
     - _FresnelDistort: 1500
     - _FresnelPow: 5
     - _FresnelR0: 0.04
-    - _FresnelStr: 1
     - _Height: 0
     - _InvFade: 5
     - _LightStr: 0.41071427
@@ -100,7 +98,6 @@ Material:
     - _UseCutout: 0
     - _UseFresnel: 0
     - _UseHeight: 0
-    - _UseMainTex: 0
     - _UseRefractive: 0
     - _UseSoft: 1
     - _ZWriteMode: 0
