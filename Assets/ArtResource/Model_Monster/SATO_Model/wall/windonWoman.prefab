@@ -630,6 +630,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4618022330029834}
   - component: {fileID: 95128663170486650}
+  - component: {fileID: 114874311981576328}
   m_Layer: 0
   m_Name: window_ani02
   m_TagString: Untagged
@@ -1532,6 +1533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4479429010643456}
   - component: {fileID: 95925475970912854}
+  - component: {fileID: 114874076971632960}
   m_Layer: 0
   m_Name: WinWoman_ani01
   m_TagString: Untagged
@@ -2260,8 +2262,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1466732204359970}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4479429010643456}
@@ -3040,7 +3042,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4618022330029834}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.000022888182, y: 29.369999, z: 4.0711098e-13}
 --- !u!4 &4508741045418948
 Transform:
   m_ObjectHideFlags: 1
@@ -4189,6 +4191,36 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114874076971632960
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1779463522283030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7b2cb5fa5e5d3c41a4a6cbe2ece3693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ani: {fileID: 95925475970912854}
+  ani1: idle
+  ani2: 'OpenWindow '
+  ani3: 
+--- !u!114 &114874311981576328
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1363378067538568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7b2cb5fa5e5d3c41a4a6cbe2ece3693, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ani: {fileID: 95128663170486650}
+  ani1: idle
+  ani2: OPen
+  ani3: 
 --- !u!137 &137163682342250126
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
